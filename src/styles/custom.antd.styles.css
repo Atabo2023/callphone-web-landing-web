@@ -1,0 +1,18 @@
+/* custom-antd-styles.css */
+
+/* Target the dropdown content */
+.ant-dropdown-menu {
+  /* Adjust the height to make the dropdown bigger */
+  min-height: 200px; 
+  min-width: 300px; 
+  
+}
+
+.ant-dropdown-menu-item {
+  /* Apply any additional styling to menu items */
+  color: #5167f6;
+  font-size: large;
+}
+.ant-dropdown-menu-item:hover {
+  color: #c1c9fc; 
+}
