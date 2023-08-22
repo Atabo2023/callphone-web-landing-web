@@ -4,7 +4,7 @@ import { InstaIcon, LinkedinIcon, TwitterIcon } from "../../assets/icons";
 
 export const Footer = () => {
   return (
-    <footer className="w-full h-80 p-5">
+    <footer className="w-full h-80 p-14">
       <div className="grid grid-cols-2 gap-15 ">
         <div className="w-80 p-2">
           <div>
@@ -92,7 +92,7 @@ export const Footer = () => {
             © {new Date().getFullYear()} Copyrights. Callphone LTD.
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="flex gap-4 justify-end p-2">
           <div>
             <InstaIcon />
           </div>
@@ -100,7 +100,7 @@ export const Footer = () => {
             <TwitterIcon />
           </div>
           <div>
-            <LinkedinIcon/>
+            <LinkedinIcon />
           </div>
         </div>
       </div>

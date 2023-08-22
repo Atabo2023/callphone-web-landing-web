@@ -1,15 +1,16 @@
-import Clickable from "./Clickable";
 
 export const InstaIcon = () => {
   return (
     <>
-      {/* <Clickable url="https://instagram.com/airvend.ng?igshid=MzRlODBiNWFlZA==" /> */}
+    <a href="https://instagram.com/airvend.ng?igshid=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
+
       <svg
         width="48"
         height="48"
         viewBox="0 0 48 48"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        cursor="pointer"
       >
         <rect x="0.5" y="0.5" width="47" height="47" rx="23.5" fill="#07090D" />
         <path
@@ -18,18 +19,47 @@ export const InstaIcon = () => {
         />
         <rect x="0.5" y="0.5" width="47" height="47" rx="23.5" stroke="black" />
       </svg>{" "}
+    </a>
     </>
+  );
+};
+
+export const LinkedinIcon = () => {
+  return (
+    <a href="https://www.linkedin.com/company/callphoneng/" target="_blank" rel="noopener noreferrer">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="48"
+      height="47"
+      fill="currentColor"
+      viewBox="0 0 48 48"
+      cursor="pointer"
+    >
+    <rect x="0.5" y="0.5" width="47" height="47" rx="23.5" stroke="black" />
+
+      <g transform="translate(16, 16)">
+        <path
+          d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+          fill="#F8F6FF"
+          
+        />
+      </g>
+    </svg>
+    </a>
   );
 };
 
 export const TwitterIcon = () => {
   return (
+    <a href="https://x.com/airvendng?s=11&t=gIgQZ2SEy2EqdU_BnIXYgw" target="_blank" rel="noopener noreferrer">
+
     <svg
       width="48"
       height="48"
       viewBox="0 0 48 48"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      cursor="pointer"
     >
       <rect x="0.5" y="0.5" width="47" height="47" rx="23.5" fill="#07090D" />
       <path
@@ -38,24 +68,6 @@ export const TwitterIcon = () => {
       />
       <rect x="0.5" y="0.5" width="47" height="47" rx="23.5" stroke="black" />
     </svg>
-  );
-};
-export const LinkedinIcon = () => {
-  return (
-    <svg
-      width="48"
-      height="48"
-      viewBox="0 0 48 48"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      onClick={"https://instagram.com/airvend.ng?igshid=MzRlODBiNWFlZA=="}
-    >
-      <rect x="0.5" y="0.5" width="47" height="47" rx="23.5" fill="#07090D" />
-      <path
-        d="M24.0002 16.3613C19.7813 16.3613 16.3613 19.7813 16.3613 24.0002C16.3613 27.8128 19.1549 30.973 22.807 31.5467V26.2079H20.8667V24.0002H22.807V22.3174C22.807 20.4031 23.9467 19.3458 25.6922 19.3458C26.5279 19.3458 27.4018 19.4948 27.4018 19.4948V21.374H26.4393C25.4898 21.374 25.1942 21.9629 25.1942 22.5672V24.0002H27.3124L26.974 26.2079H25.1942V31.5467C28.8456 30.9738 31.6391 27.812 31.6391 24.0002C31.6391 19.7813 28.2192 16.3613 24.0002 16.3613Z"
-        fill="#F8F6FF"
-      />
-      <rect x="0.5" y="0.5" width="47" height="47" rx="23.5" stroke="black" />
-    </svg>
+    </a>
   );
 };
