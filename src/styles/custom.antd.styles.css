@@ -3,16 +3,18 @@
 /* Target the dropdown content */
 .ant-dropdown-menu {
   /* Adjust the height to make the dropdown bigger */
-  min-height: 200px; 
-  min-width: 300px; 
+  min-height: 180px; 
+  min-width: 220px; 
   
 }
 
+/* Apply any additional styling to menu items */
 .ant-dropdown-menu-item {
-  /* Apply any additional styling to menu items */
-  color: #5167f6;
-  font-size: large;
+  font-size: medium !important;
 }
+
+/* Change text color on hover */
 .ant-dropdown-menu-item:hover {
-  color: #c1c9fc; 
+  color: #5167f6 !important;
+  background-color: #fff !important; 
 }
