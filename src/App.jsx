@@ -1,13 +1,20 @@
-import { useState } from "react";
-import { LandingPage } from "./pages/LandingPage/LandingPage";
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import WebRoutes from "./routes/routes";
 
 function App() {
-
   return (
-    <>
-  
-      <LandingPage/>
-    </>
+    <div>
+      <Routes>
+        {WebRoutes.map(({ path, component: Component, title }) => (
+          <Route
+            key={path}
+            path={path}
+            element={<Component title={title} />}
+          />
+        ))}
+      </Routes>
+    </div>
   );
 }
 

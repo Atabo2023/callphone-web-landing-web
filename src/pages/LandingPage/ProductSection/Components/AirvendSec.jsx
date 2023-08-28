@@ -22,12 +22,12 @@ const AirvendSec = () => {
     <div className="md:flex md:p-10">
       <div className="md:w-1/2">
         <p className="text-4xl font-bold px-16 py-5">Airvend</p>
-        <p className="text-lg font-light px-16 py-3 text-justify md:w-4/5 w-full">
+        <p className="text-xl font-light px-16 py-3 text-justify md:w-4/5 w-full text-[#565555] tracking-wide leading-relaxed">
           Money transfers and Crediting, Airtime recharges on all networks, TV
           Decoder Subscriptions... Money transfers and Crediting, Airtime
           recharges on all networks, TV Decoder Subscriptions...
         </p>
-        <div className="px-16">
+        <div className="px-16 mt-5">
           <img
             src={Arrow}
             alt="icon"
@@ -36,7 +36,7 @@ const AirvendSec = () => {
           />
         </div>
       </div>
-      <div className="box-border m-5 p-16 h-5/6 border border-transparent rounded-3xl bg-violet-50 md:w-1/2">
+      <div className="box-border m-5 p-16 h-5/6 border border-transparent rounded-3xl bg-[#e5effd] md:w-1/2">
         <img
           src={PhoneImg}
           alt="img"

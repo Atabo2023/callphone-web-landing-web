@@ -10,20 +10,20 @@ import { ProductSection } from "./ProductSection/ProductSection";
 import { PartnerSec } from "./Partners";
 import { ContactSec } from "./ContactSec";
 
-export const LandingPage = () => {
+const LandingPage = () => {
   return (
     <>
       <Header />
-      <div className="bg-violet-50 p-5 mt-1 lg:flex md:grid">
+      <div className="bg-[#e5effd] p-5 mt-1 lg:flex md:grid">
         <div className="lg:w-2/5">
-          <div className="text-6xl font-extrabold mt-20 w-85 p-8">
+          <div className="text-6xl font-extrabold mt-20 w-85 p-8 leading-tight">
             <h2>
               Digital Payment <br></br>Simplifed For
             </h2>
             <h1 className="underline text-[#4834d4]">Everyone.</h1>
           </div>
           <div>
-            <p className="font-normal pl-8 lg:w-full ">
+            <p className="font-normal pl-8 lg:w-full  text-[#565555] tracking-wide leading-relaxed text-lg ">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Aspernatur vel incidunt pariatur exercitationem tenetur error
               sunt.
@@ -37,7 +37,7 @@ export const LandingPage = () => {
           </div>
         </div>
 
-        <div className="lg:w-1/2 pt-10">
+        <div className="lg:w-1/2 pt-10 md:ml-28">
           <CarouselPic />
         </div>
       </div>
@@ -49,3 +49,4 @@ export const LandingPage = () => {
     </>
   );
 };
+export default LandingPage;

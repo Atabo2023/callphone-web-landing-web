@@ -1,17 +1,18 @@
 import React from "react";
 import logo from "../../assets/icons/logo.svg";
 import { InstaIcon, LinkedinIcon, TwitterIcon } from "../../assets/icons";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
     <footer className="w-full h-80 p-14">
-      <div className="grid grid-cols-2 gap-15 ">
-        <div className="w-80 p-2">
+      <div className="flex gap-40">
+        <div className="w-3/5 p-2">
           <div>
             <img src={logo} alt="logo" />
           </div>
           <div>
-            <p className="text-sm text-justify p-2 mt-2 font-light">
+            <p className="text-sm text-justify p-2 mt-2 font-light py-3 w-full text-[#565555] tracking-wide leading-relaxed">
               Callphone Ltd is an impact-driven payment solution and virtual
               services distribution provider. A company registered under the law
               (RC 957797) by the Federal Republic of Nigeria. CallPhone was
@@ -23,72 +24,77 @@ export const Footer = () => {
         <div className="w-full grid grid-cols-4 ">
           <ul>
             <h2 className="font-bold py-2"> Product</h2>
-            <li className="font-light p-2">
-              <a href="/ ">Airvend</a>
+            <li className="font-light p-2 text-[#565555]">
+              <Link to="/airvend">Airvend</Link>
             </li>
-            <li className="font-light p-2">
-              <a href="/ ">Airpay</a>
+            <li className="font-light p-2 text-[#565555]">
+              <Link to="/airvend">Airpay</Link>
             </li>
-            <li className="font-light p-2">
-              <a href="/ ">Airgate</a>
+            <li className="font-light p-2 text-[#565555]">
+              <Link to="/airvend">Airgate</Link>
             </li>
-            <li className="font-light p-2">
-              <a href="/ ">USSD</a>
+            <li className="font-light p-2 text-[#565555]">
+              <Link to="/airvend">USSD</Link>
             </li>
           </ul>
           <ul>
             <h2 className="font-bold py-2">Company</h2>
-            <li className="font-light p-2">
+            <li className="font-light p-2 text-[#565555]">
               <a href="/ ">About</a>
             </li>
-            <li className="font-light p-2">
+            <li className="font-light p-2 text-[#565555]">
               <a href="/ ">Team</a>
             </li>
-            <li className="font-light p-2">
+            <li className="font-light p-2 text-[#565555]">
               <a href="/ ">Gallery</a>
             </li>
-            <li className="font-light p-2">
+            <li className="font-light p-2 text-[#565555]">
               <a href="/ ">Careers</a>
             </li>
           </ul>
           <ul>
             <h2 className="font-bold py-2">Resources</h2>
-            <li className="font-light p-2">
+            <li className="font-light p-2 text-[#565555]">
               <a href="/ ">News</a>
             </li>
-            <li className="font-light p-2">
+            <li className="font-light p-2 text-[#565555]">
               <a href="/ ">Blog</a>
             </li>
-            <li className="font-light p-2">
+            <li className="font-light p-2 text-[#565555]">
               <a href="/ ">Videos</a>
             </li>
-            <li className="font-light p-2">
+            <li className="font-light p-2 text-[#565555]">
               <a href="/ ">Media Kits</a>
             </li>
           </ul>
           <ul>
-            <h2 className="font-bold py-2"> Contact </h2>
-            <p className="font-light p-2">Address:</p>
+            <h2 className="font-bold py-2 text-[#565555]"> Contact </h2>
+            <p className="font-light p-2 text-[#565555]">Address:</p>
             <p className="font-bold p-2"> Abuja</p>
-            <p className="font-light p-2">
+            <p className="font-light p-2 text-[#565555]">
               Plot 1152, Cadastral Zone, Katampe District, opposite Bon Hotels
               Grand Towers. Abuja.
             </p>
             <p className="font-bold p-2">Lagos</p>
-            <p className="font-light p-2">Gbagada Lagos</p>
+            <p className="font-light p-2 text-[#565555]">
+              8a Residence Street,Gbagada Phase 2, Gbagada, Lagos State.
+            </p>
             <p className="font-bold p-2">Port Harcourt</p>
-            <p className="font-light p-2">Port Harcourt</p>
-            <p className="font-light p-2">(+234)9061163130</p>
-            <p className="font-light p-2 underline">
+            <p className="font-light p-2 text-[#565555]">
+              SAAC PLAZA, K/m 60, PH/ABA express road, Opposite Timber market,
+              Oyigbo, Rivers State.
+            </p>
+            <p className="font-light p-2 text-[#565555]">(+234)9061163130</p>
+            <p className="font-light p-2 underline text-[#565555]">
               <a href="mailto:info@callphoneng.com">info@callphoneng.com</a>
             </p>
           </ul>
         </div>
       </div>
       <hr className="m-10"></hr>
-      <div className="grid grid-cols-2 gap-4 p-8">
+      <div className="grid grid-cols-2 gap-4 p-8 ">
         <div>
-          <p className="text-sm">
+          <p className="text-sm text-[#565555]">
             © {new Date().getFullYear()} Copyrights. Callphone LTD.
           </p>
         </div>

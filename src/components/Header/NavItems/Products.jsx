@@ -1,24 +1,23 @@
 import React from "react";
-import { DownOutlined } from "@ant-design/icons";
-import { Dropdown, message, Space } from "antd";
-const onClick = ({ key }) => {
-  //   message.info(`Click on item ${key}`);
-};
+import { DownOutlined, CaretDownOutlined } from "@ant-design/icons";
+import { Dropdown, Space } from "antd";
+import { Link } from "react-router-dom";
+
 const items = [
   {
-    label: "Airvend",
+    label: <Link to="/airvend">Airvend</Link>,
     key: "1",
   },
   {
-    label: "Airpay",
+    label: <Link to="/airvend">Airpay</Link>,
     key: "2",
   },
   {
-    label: "Airgate",
+    label: <Link to="/airvend">Airgate</Link>,
     key: "3",
   },
   {
-    label: "USSD",
+    label: <Link to="/airvend">USSD</Link>,
     key: "4",
   },
 ];
@@ -26,17 +25,14 @@ const Products = () => (
   <Dropdown
     menu={{
       items,
-      onClick,
     }}
   >
-    <a
-      onClick={(e) => e.preventDefault()}
-      className="hover:text-indigo-700"
-      overlay={items}
-    >
+    <a className="hover:text-indigo-700" overlay={items}>
       <Space>
         Products
-        <DownOutlined />
+        {/* <DownOutlined 
+       /> */}
+        <CaretDownOutlined />
       </Space>
     </a>
   </Dropdown>

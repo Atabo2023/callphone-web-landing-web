@@ -18,16 +18,16 @@ export const PartnerSec = () => {
   return (
     <>
       <div className="grid justify-items-center ">
-        <p className="text-4xl font-medium text-center px-20 pt-20">
+        <p className="text-5xl font-medium text-center px-20 pt-20">
           Our <span className="text-[#4834d4]">Partners</span>{" "}
         </p>
-        <p className="text-lg font-light text-center py-16 px-5 md:w-1/2">
+        <p className="text-xl font-light text-center py-10 px-5 md:w-1/2 w-full text-[#565555] tracking-wide leading-relaxed">
           Callphone is keen in providing our clients and customers with the best
           options readily available in the FinTech industry to guarantee
           effectiveness and efficiency in operation
         </p>
       </div>
-      <div className="grid md:grid-cols-5 grid-cols-2 p-10 md:ml-10">
+      <div className="grid md:grid-cols-5 grid-cols-2 p-10 md:ml-10 justify-center">
         <div>
           <img src={grandTIcon} alt="icon" />
         </div>
@@ -46,7 +46,7 @@ export const PartnerSec = () => {
         <div className="md:p-10 py-16">
           <img src={zenithIcon} alt="icon" />
         </div>
-        <div>
+        <div className="img-[#0a1f44]">
           <img src={nibbsIcon} alt="icon" />
         </div>
         <div className="pt-14">

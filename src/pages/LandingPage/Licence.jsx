@@ -6,7 +6,7 @@ import PicIcon from "../../assets/icons/pic.svg";
 import PssbIcon from "../../assets/icons/pssb.svg";
 import SanefIcon from "../../assets/icons/sanef.svg";
 import InterswitchIcon from "../../assets/icons/interswitch.svg";
-import GrandtowersIcon from "../../assets/icons/grandtowers.svg";
+// import GrandtowersIcon from "../../assets/icons/grandtowers.svg";
 export const LicenceSection = () => {
   return (
     <div className="bg-neutral-100 lg:flex gap-10 hidden md:visible">
@@ -32,9 +32,7 @@ export const LicenceSection = () => {
       <div className="lg:p-6 ">
         <img src={InterswitchIcon} alt="icon" />
       </div>
-      <div>
-        <img src={GrandtowersIcon} alt="icon" />
-      </div>
+      
     </div>
   );
 };
