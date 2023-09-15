@@ -9,15 +9,15 @@ const items = [
     key: "1",
   },
   {
-    label: <Link to="/airvend">Airpay</Link>,
+    label: <Link to="/airpay">Airpay</Link>,
     key: "2",
   },
   {
-    label: <Link to="/airvend">Airgate</Link>,
+    label: <Link to="/airgate">Airgate</Link>,
     key: "3",
   },
   {
-    label: <Link to="/airvend">USSD</Link>,
+    label: <Link to="/UssdPage">USSD</Link>,
     key: "4",
   },
 ];
