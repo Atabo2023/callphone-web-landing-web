@@ -3,16 +3,52 @@
 /* Target the dropdown content */
 .ant-dropdown-menu {
   /* Adjust the height to make the dropdown bigger */
-  min-height: 200px; 
-  min-width: 300px; 
-  
+  min-height: 180px;
+  min-width: 220px;
 }
 
+/* Apply any additional styling to menu items */
 .ant-dropdown-menu-item {
-  /* Apply any additional styling to menu items */
-  color: #5167f6;
-  font-size: large;
+  font-size: medium !important;
 }
+
+/* Change text color on hover */
 .ant-dropdown-menu-item:hover {
-  color: #c1c9fc; 
+  color: #5167f6 !important;
+  background-color: #fff !important;
+}
+
+/* Cards for the USSD section */
+
+.custom-card {
+  background-color: #f4f4f4;
+  transition: background-color 0.3s;
+  color: #56555584;
+
+  &:hover {
+    background-color: #4834d4;
+    color: #fff;
+  }
+}
+/* Cards for the contact section */
+.custom-cards {
+  background-color: #f4f4f4;
+  transition: background-color 0.3s;
+  color: #000;
+
+  &:hover {
+    background-color: #e5effd;
+    /* color: #fff; */
+  }
+}
+/* Cards for the career section */
+.custom-career-cards {
+  background-color: #f4f4f4;
+  transition: background-color 0.3s;
+  color: #000;
+
+  &:hover {
+    background-color: #4834d4;
+    color: #fff;
+  }
 }

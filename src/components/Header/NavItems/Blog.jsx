@@ -1,10 +1,13 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 
-export const Blog = () => {
+const Blog = () => {
   return (
-    <button className='hover:text-indigo-700'
-    >Blog</button>
-  )
-}
-
+    <div>
+      <Link to="/blog">
+        <button className="hover:text-indigo-700">Blog</button>
+      </Link>
+    </div>
+  );
+};
 export default Blog;
