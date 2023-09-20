@@ -11,10 +11,10 @@ export const AirpaySec = () => {
         <div className="md:w-1/2">
           <p className="text-4xl font-bold px-16 py-5">Airpay</p>
           <p className="text-xl font-light px-16 py-3 text-justify md:w-4/5 w-full text-[#565555] tracking-wide leading-relaxed">
-            Airgate is a payment gateway infrastructure product of Callphone
-            Ltd, an impact-driven payment solution and virtual services
-            distribution provider company registered under the law (RC 957797)
-            by the Federal Republic of Nigeria.
+            Payment collection solution for smart businesses. Operate a business
+            without financial boundaries. With Airpay, no cash, no worries;
+            customers will pay however they want. Our agency banking solution
+            empowers you with limitless money possibilities.
           </p>
           <div className="px-16 mt-5">
             <img src={Arrow} alt="icon" />

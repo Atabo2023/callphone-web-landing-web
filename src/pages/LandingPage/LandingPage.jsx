@@ -24,9 +24,9 @@ const LandingPage = () => {
           </div>
           <div>
             <p className="font-normal pl-8 lg:w-full  text-[#565555] tracking-wide leading-relaxed text-lg ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Aspernatur vel incidunt pariatur exercitationem tenetur error
-              sunt.
+              Experience seamless payment solutions. Easy, fast, and secure
+              fintech solutions designed for everyone - individuals, businesses,
+              and organizations.
             </p>
           </div>
           <div className="pl-8 py-6">

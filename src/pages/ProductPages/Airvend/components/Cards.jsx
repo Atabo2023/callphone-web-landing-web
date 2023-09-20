@@ -55,8 +55,11 @@ const Vendcards = () => {
           </motion.div>
           {bankCardOpen && (
             <motion.p layout className="text-lg hover:visible">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis,
-              umquam deeprehenderit temporibus eligendi
+              Fund your Airvend account with bank transfer. Copy your Airvend
+              account details, transfer money into the account, and it instantly
+              reflects in your Airvend account. You can fund your account or
+              request friends, family, customers, employers, etc., to fund the
+              account.
             </motion.p>
           )}
         </motion.div>
@@ -96,8 +99,10 @@ const Vendcards = () => {
               layout
               className="text-lg  hover:visible"
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis,
-              umquam deeprehenderit temporibus eligendi
+              Easily fund your Airvend account with your debit card. Choose the
+              debit card funding option, enter the amount and your card details,
+              and your card will be debited. The money reflects instantly in
+              your Airvend account.
             </motion.p>
           )}
         </motion.div>
@@ -135,8 +140,11 @@ const Vendcards = () => {
               layout
               className="text-lg  hover:visible"
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis,
-              umquam deeprehenderit temporibus eligendi
+              You can also use the Airvend tag option to fund your account. Copy
+              your Airvend tag and send it to another Airvend user for instant
+              funds transfer from their account to yours. It’s fast, seamless,
+              and an ideal way to collect money from friends, family, and
+              partners.
             </motion.p>
           )}
         </motion.div>

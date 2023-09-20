@@ -12,20 +12,19 @@ const AirgateHero = () => {
           </div>
           <div>
             <p className="font-normal pl-8 lg:w-full text-[#565555] tracking-wide leading-relaxed text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-              cumque facilis in incidunt, ipsum beatae consectetur, asperiores
-              nesciunt dicta doloremque natus et non, facere impedit? Amet
-              laboriosam vel minima maiores?
+              Experience a new level of robust payment gateway with
+              well-documented APIs structured to simplify the development
+              process. From simple one-page projects to complex products, social
+              media vendors, and more, Airgate empowers businesses to thrive
+              online.
             </p>
-            <RequestDemobtn/>
-            
+            <RequestDemobtn />
           </div>
           <div className="p-8 justify-between">{/* <StoreDownload /> */}</div>
         </div>
         <div className="p-20 m-10">
           <img src={airgateImage} alt="img" />
         </div>
-        
       </div>
     </>
   );

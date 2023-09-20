@@ -1,7 +1,10 @@
 import { Button } from "antd";
 import React from "react";
 import image4 from "../../../../assets/images/image4.svg";
-import { Contactbtn, WhatsappOutline } from "../../../../components/Buttons/ContactBtn";
+import {
+  Contactbtn,
+  WhatsappOutline,
+} from "../../../../components/Buttons/ContactBtn";
 
 const HeroPay = () => {
   return (
@@ -16,14 +19,15 @@ const HeroPay = () => {
           </div>
           <div>
             <p className="font-normal pl-8 lg:w-full text-[#565555] tracking-wide leading-relaxed text-lg">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error,
-              omnis tempora voluptas iusto corporis aliquid doloremque. Optio
-              ipsa, deleniti soluta, quam, maxime expedita iste eligendi maiores
-              sed voluptas non accusantium..
+              No cash, no worries. Airvend POS provides cashless, easy, fast,
+              and secure payment collection that is comfortable for you and your
+              customers - pay with transfer, POS payment, USSD payment, and
+              more. POS agent? Airvend POS makes things easy for you, too. Call
+              now to get a POS terminal.
             </p>
           </div>
           <div className="p-8 justify-between flex">
-            <Contactbtn/>
+            <Contactbtn />
             {/* <WhatsappOutline/> */}
           </div>
         </div>

@@ -17,8 +17,8 @@ const Contact = () => {
           Contact Us
         </h1>
         <p className=" text-center font-normal  text-[#565555] tracking-wide leading-relaxed text-md">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br />{" "}
-          Corporis cumque, quos tempora sit vero earum cum culpa corrupti.
+          Contact Callphone Limited right now; <br /> let us know how we can
+          work together. Available 24/7.
         </p>
       </div>
       <div className="m-20 ">
