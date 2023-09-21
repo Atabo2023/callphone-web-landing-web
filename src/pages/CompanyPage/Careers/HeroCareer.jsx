@@ -15,10 +15,9 @@ const HeroCareer = () => {
           </div>
           <div>
             <p className="font-normal pl-8 lg:w-full text-[#565555] tracking-wide leading-relaxed text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-              cumque facilis in incidunt, ipsum beatae consectetur, asperiores
-              nesciunt dicta doloremque natus et non, facere impedit? Amet
-              laboriosam vel minima maiores?
+              Ready to do your best work in Fintech? Explore career
+              opportunities at Callphone Limited and learn more about our
+              culture.
             </p>
             {/* <RequestDemobtn /> */}
           </div>

@@ -19,9 +19,10 @@ export const UssdSec = () => {
         <div className="md:w-1/2">
           <p className="text-4xl font-bold px-16 py-5">USSD</p>
           <p className="text-xl font-light px-16 py-3 text-justify md:w-4/5 w-full text-[#565555] tracking-wide leading-relaxed">
-            Money transfers and Crediting, Airtime recharges on all networks, TV
-            Decoder Subscriptions... Money transfers and Crediting, Airtime
-            recharges on all networks, TV Decoder Subscriptions...
+            No internet service. No problem. The Airvend USSD feature allows you
+            to make transfers and pay bills online without the internet. Easily
+            access your Airvend account and transact on the go with or without
+            internet service.
           </p>
           <div className="px-16 mt-5">
             <img src={Arrow} alt="icon" style={{ cursor: "pointer" }} />

@@ -12,10 +12,9 @@ export const TransferSec = () => {
           </p>
 
           <p className="text-lg font-light px-16 py-10 text-justify md:w-4/5 w-full text-[#565555] tracking-wide leading-relaxed ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, velit
-            numquam! Ullam molestias praesentium ratione et ex. Voluptatibus
-            odit suscipit quis dicta sint libero, nesciunt tenetur tempore ea
-            alias distinctio?
+            Easily send and receive money directly with your Airvend account.
+            It’s fast, easy, and secure digital payment. Don’t waste your money
+            on transaction charges when you can transact at almost zero charges.
           </p>
         </div>
         <div className="box-border pt-20 pr-20 m-5 h-5/6 border border-transparent rounded-3xl  md:w-1/2">
@@ -38,10 +37,10 @@ export const AirtimeSec = () => {
             Airtime Recharge and Data Subscription
           </p>
           <p className="text-lg font-light px-16 py-10 text-justify md:w-4/5 w-full text-[#565555] tracking-wide leading-relaxed">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt
-            eos id facilis assumenda omnis vitae distinctio, laborum cum culpa
-            iure sunt corrupti fugiat quisquam, aliquid voluptates nesciunt
-            consequuntur iusto minus.
+            Top up your airtime and/or internet data from anywhere via various
+            Airvend channels – website, mobile app, or *174# shortcode. Recharge
+            or buy data for yourself or your friends, family, colleagues, or
+            employees. Bulk recharge and data gifting are available.
           </p>
           <div className="px-16"></div>
         </div>
@@ -58,10 +57,11 @@ export const CableSubSec = () => {
             Cable TV Subscription
           </p>
           <p className="text-lg font-light px-16 text-justify md:w-4/5 w-full text-[#565555] tracking-wide leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, velit
-            numquam! Ullam molestias praesentium ratione et ex. Voluptatibus
-            odit suscipit quis dicta sint libero, nesciunt tenetur tempore ea
-            alias distinctio?
+            Relax and enjoy non-stop access when you renew your cable TV
+            subscription with Airvend. DSTV, GOTV, Startimes, and more, choose
+            from a wide range of bouquets and make your seamless online TV
+            subscription payment on Airvend. We help you stay connected to a
+            world of limitless entertainment.
           </p>
         </div>
         <div className="box-border pr-20 h-5/6 border border-transparent rounded-3xl  md:w-1/2">
@@ -83,10 +83,11 @@ export const ElectricBillsSec = () => {
             Electricity Bills Payment
           </p>
           <p className="text-lg font-light px-16 text-justify md:w-4/5 w-full text-[#565555] tracking-wide leading-relaxed">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt
-            eos id facilis assumenda omnis vitae distinctio, laborum cum culpa
-            iure sunt corrupti fugiat quisquam, aliquid voluptates nesciunt
-            consequuntur iusto minus.
+            Experience zero power outages when you renew your prepaid and
+            postpaid electricity payments with Airvend. Our electricity
+            value-added services cover every power distribution center in
+            Nigeria and are structured to give you fast prepaid meter tokens to
+            continue enjoying 100% power supply. It only takes 30 seconds.
           </p>
           {/* <div className="px-16"></div> */}
         </div>
