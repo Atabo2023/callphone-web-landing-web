@@ -82,10 +82,10 @@ export const RechargePin = () => {
           Universal Recharge Pin Generator API
         </p>
         <p className="p-5 w-2/3">
-          Lorem ipsum dolor sit amet.Lorem ipsum dolor sit ametLorem ipsum dolor
-          sit ametLorem ipsum dolor sit amet Lorem ipsum dolor sit amet.Lorem
-          ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit
-          amet
+          Businesses can now integrate the Airvend USSD API and enjoy lots of
+          custom services.<br></br> ● Customizable <br></br>● Airtime recharge vouchers and
+          gifting <br></br> ● Data subscription and gifting <br></br> ● Electricity recharge <br></br>● Cable
+          TV recharge and more One universal recharge pin for all networks.
         </p>
       </div>
     </div>

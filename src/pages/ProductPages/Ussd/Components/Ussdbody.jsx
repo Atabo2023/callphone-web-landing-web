@@ -11,8 +11,9 @@ export const Ussdbody = () => {
         >
           <p className="text-4xl p-5 font-semibold">Self Recharge</p>
           <p className="p-5 w-full">
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit ametLorem ipsum
-            dolor sit ametLorem ipsum dolor sit amet
+            Never lack airtime on your phone. Recharge your phone online
+            directly from the comfort of your home. It’s fast, it’s seamless. No
+            internet is required.
           </p>
         </div>
         <div
@@ -21,8 +22,9 @@ export const Ussdbody = () => {
         >
           <p className="text-4xl p-5 font-semibold">Recharge Voucher Gifts</p>
           <p className="p-5 w-full">
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit ametLorem ipsum
-            dolor sit ametLorem ipsum dolor sit amet
+            Show some love. Gift recharge vouchers to your family, friends,
+            colleagues, and employees directly from your Airvend account using
+            the shortcode.
           </p>
         </div>
         <div
@@ -30,11 +32,12 @@ export const Ussdbody = () => {
           className="font-normal mx-10 my-20 py-4 pl-8 text-[#56555551] tracking-wide leading-relaxed text-lg  hover:text-black focus:text-black outline-none"
         >
           <p className="text-4xl p-5 font-semibold">
-            Bulk Recharge to Friends, Family and Employee.
+            Bulk Recharge to Friends, Family and Employees
           </p>
           <p className="p-5 w-full">
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit ametLorem ipsum
-            dolor sit ametLorem ipsum dolor sit amet
+            Want to recharge multiple persons, one-time or recurring? Use the
+            Airvend universal bulk recharge feature to make it easier, faster,
+            and more convenient.
           </p>
         </div>
       </div>
