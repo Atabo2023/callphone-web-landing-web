@@ -1,54 +1,73 @@
 /* custom-antd-styles.css */
 
 /* Target the dropdown content */
+
+/* Ant Design Dropdown styles */
 .ant-dropdown-menu {
-  /* Adjust the height to make the dropdown bigger */
   min-height: 180px;
   min-width: 220px;
 }
 
-/* Apply any additional styling to menu items */
+/* Ant Design Dropdown item styles */
 .ant-dropdown-menu-item {
   font-size: medium !important;
 }
 
-/* Change text color on hover */
+/* Ant Design Dropdown item hover styles */
 .ant-dropdown-menu-item:hover {
   color: #5167f6 !important;
   background-color: #fff !important;
 }
 
-/* Cards for the USSD section */
-
+/* USSD section card styles */
 .custom-card {
   background-color: #f4f4f4;
-  transition: background-color 0.3s;
   color: #56555584;
-
-  &:hover {
-    background-color: #4834d4;
-    color: #fff;
-  }
+  transition: background-color 0.3s;
 }
-/* Cards for the contact section */
+
+.custom-card:hover {
+  background-color: #4834d4;
+  color: #fff;
+}
+
+/* Contact section card styles */
 .custom-cards {
   background-color: #f4f4f4;
-  transition: background-color 0.3s;
   color: #000;
-
-  &:hover {
-    background-color: #e5effd;
-    /* color: #fff; */
-  }
+  transition: background-color 0.3s;
 }
-/* Cards for the career section */
+
+.custom-cards:hover {
+  background-color: #e5effd;
+}
+
+/* Career section card styles */
 .custom-career-cards {
   background-color: #f4f4f4;
-  transition: background-color 0.3s;
   color: #000;
+  transition: background-color 0.3s;
+}
 
-  &:hover {
-    background-color: #4834d4;
-    color: #fff;
+.custom-career-cards:hover {
+  background-color: #4834d4;
+  color: #fff;
+}
+
+/* Gallery Imgaes */
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+  gap: 30px;
+}
+@media (max-width: 768px) {
+  .image-container {
+    grid-template-columns: repeat(2, 1fr); /* Two columns for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .image-container {
+    grid-template-columns: 1fr; /* Single column for very small screens */
   }
 }

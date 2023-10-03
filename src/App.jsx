@@ -6,12 +6,22 @@ function App() {
   return (
     <div>
       <Routes>
-        {WebRoutes.map(({ path, component: Component, title }) => (
-          <Route
-            key={path}
-            path={path}
-            element={<Component title={title} />}
-          />
+        {WebRoutes.map(({ path, component: Component, title, children }) => (
+          <Route key={path} path={path} element={<Component title={title} />}>
+            {children && (
+              <Route>
+                {children.map(
+                  ({ path: childPath, component: ChildComponent }) => (
+                    <Route
+                      key={childPath}
+                      path={childPath}
+                      element={<ChildComponent />}
+                    />
+                  )
+                )}
+              </Route>
+            )}
+          </Route>
         ))}
       </Routes>
     </div>
