@@ -6,15 +6,15 @@ import { Link } from "react-router-dom";
 const onClick = ({ key }) => {};
 const items = [
   {
-    label: "About",
+    label: <Link to="/about">About</Link>,
     key: "1",
   },
   {
-    label: "Team",
+    label: <Link to="/team">Team</Link>,
     key: "2",
   },
   {
-    label: "Gallery",
+    label: <Link to="/gallery">Gallery</Link>,
     key: "3",
   },
   {

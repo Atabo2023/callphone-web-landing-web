@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const onClick = ({ key }) => {};
 const items = [
   {
-    label: "News",
+    label: <Link to="/news">News</Link>,
     key: "1",
   },
   {
@@ -13,12 +13,16 @@ const items = [
     key: "2",
   },
   {
-    label: "Videos",
+    label: (
+      <a
+        href="https://www.youtube.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Videos
+      </a>
+    ),
     key: "3",
-  },
-  {
-    label: "Media Kit",
-    key: "4",
   },
 ];
 const Resources = () => (

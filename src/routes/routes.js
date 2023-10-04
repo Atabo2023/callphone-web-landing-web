@@ -7,6 +7,15 @@ import UssdPage from "../pages/ProductPages/Ussd/UssdPage";
 import CareersPage from "../pages/CompanyPage/Careers/CareersPage";
 import BlogPage from "../pages/Blog/BlogPage";
 import TestimonialsPage from "../pages/ResourcesPage/Testimonals/Testimonials";
+// import Viewall from "../pages/ResourcesPage/Testimonals/SideBar/Viewall";
+import Viewall from "../pages/ResourcesPage/Testimonals/SideBar/Viewall";
+import AirgateTestimonal from "../pages/ResourcesPage/Testimonals/SideBar/AirgateTestimonal";
+import AirvendTestimonal from "../pages/ResourcesPage/Testimonals/SideBar/AirvendTestimonal";
+import AirpayTestimonal from "../pages/ResourcesPage/Testimonals/SideBar/AirpayTestimonal";
+import News from "../pages/ResourcesPage/News/News";
+import AboutPage from "../pages/CompanyPage/AboutUs/About";
+import TeamPage from "../pages/CompanyPage/Team/Team";
+import GalleryPage from "../pages/CompanyPage/Gallery/Gallery";
 
 const WebRoutes = [
   {
@@ -51,8 +60,50 @@ const WebRoutes = [
   },
   {
     title: "Testimonials",
-    path: "/testimonials",
+    path: "/testimonials/*",
     component: TestimonialsPage,
-  }
-]
+    children: [
+      {
+        title: "Viewall",
+        path: "viewall-Testimonials",
+        component: Viewall,
+      },
+      {
+        title: "Airgate",
+        path: "airgate-Testimonials",
+        component: AirgateTestimonal,
+      },
+      {
+        title: "Airpay",
+        path: "airpay-Testimonials",
+        component: AirpayTestimonal,
+      },
+      {
+        title: "Airvend",
+        path: "airvend-Testimonials",
+        component: AirvendTestimonal,
+      },
+    ],
+  },
+  {
+    title: "News",
+    path: "/news",
+    component: News,
+  },
+  {
+    title: "About",
+    path: "/about",
+    component: AboutPage,
+  },
+  {
+    title: "Team",
+    path: "/team",
+    component: TeamPage,
+  },
+  {
+    title: "Gallery",
+    path: "/gallery",
+    component: GalleryPage,
+  },
+];
 export default WebRoutes;
