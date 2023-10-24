@@ -11,7 +11,7 @@ import {
 
 export const CardSec = () => {
   // Replace this with  actual logic to check if there are job openings
-  const jobOpeningsAvailable = true; // For example, set this to true if there are openings
+  const jobOpeningsAvailable = false; // For example, set this to true if there are openings
 
   if (jobOpeningsAvailable) {
     return (
@@ -236,7 +236,7 @@ export const CardSec = () => {
     );
   } else {
     return (
-      <div className="text-center mt-10">
+      <div className="text-justify px-5 my-20">
         <p className=" text-5xl font-bold  leading-tight text-center">
           Sorry, We are <span className=" text-[#4834d4]">not hiring</span> at
           the moment...

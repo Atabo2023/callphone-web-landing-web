@@ -3,13 +3,7 @@ import { Header } from "../../../components/Header/Header";
 import HeroPay from "./Components/HeroPay";
 import CustTestimonial from "../Componets/CustTestimonial";
 import { Footer } from "../../../components/Footer/Footer";
-import {
-  BillsSec,
-  CollectPaymentSec,
-  OwnPosSec,
-  SemBankingSec,
-  WithdrawlSec,
-} from "./Components/AirpayUtilis";
+import { OwnPosSec } from "./Components/AirpayUtilis";
 import { AirpayPrefooter } from "./Components/PrefooterAirpay";
 
 const AirpayProduct = () => {
@@ -17,11 +11,9 @@ const AirpayProduct = () => {
     <div>
       <Header />
       <HeroPay />
-      <OwnPosSec />
-      <SemBankingSec />
-      <CollectPaymentSec />
-      <WithdrawlSec />
-      <BillsSec />
+      <div className="p-5">
+        <OwnPosSec />
+      </div>
       <CustTestimonial />
       <AirpayPrefooter />
       <Footer />

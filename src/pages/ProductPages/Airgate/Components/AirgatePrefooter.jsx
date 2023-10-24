@@ -4,20 +4,20 @@ import {
   ContactbtOutline,
   WhatsappOutline,
 } from "../../../../components/Buttons/ContactBtn";
-import { RequestDemobtnOutlined } from "../../../../components/Buttons/RequestDemoBtn";
+import { GetStartedOutlinedBtn } from "../../../../components/Buttons/RegisterBtn";
 
 export const AirgatePrefooter = () => {
   return (
-    <div className="flex bg-[#4834d4] text-white justify-center pl-10 text-5xl items-center overflow-hidden ">
-      <div className="font-medium text-center justify-center p-20">
+    <div className="flex bg-[#4834d4] text-white justify-center lg:text-3xl text-4xl items-center overflow-hidden ">
+      <div className="font-medium text-center justify-center md:p-20 p-5">
         <p>
-          It’s safe, secure, well-documented, and easy to integrate. Get Started
+          It’s safe, secure, well-documented, and easy to integrate. <br></br> Get Started
           with Airgate API
         </p>
 
-        <p className=" ml-10">
+        <p className=" md:ml-10">
           <div className="p-2">
-            <RequestDemobtnOutlined />
+           <GetStartedOutlinedBtn/>
           </div>
         </p>
       </div>

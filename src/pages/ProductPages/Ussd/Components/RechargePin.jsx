@@ -1,11 +1,17 @@
 import React from "react";
 import { Card, Space } from "antd";
-import { PieChartOutlined } from "@ant-design/icons";
+import {
+  PieChartOutlined,
+  LockOutlined,
+  BookOutlined,
+  SecurityScanOutlined,
+} from "@ant-design/icons";
+import { easeIn, motion } from "framer-motion";
 
 export const RechargePin = () => {
   return (
-    <div className="flex">
-      <div className="grid grid-cols-2 p-10 w-3/4 ">
+    <div className="lg:flex ">
+      <div className="grid md:grid-cols-2 grid-col-1 md:p-20 p-5 w-3/4 ">
         <div className="p-1 m-2">
           <Space size={16}>
             <Card
@@ -19,8 +25,10 @@ export const RechargePin = () => {
                 {" "}
                 Detailed Reporting
               </p>
-              <p>
-                <PieChartOutlined />
+              <p className="p-3">
+                <PieChartOutlined
+                  style={{ width: 200, fontSize: "4rem", paddingTop: "30px" }}
+                />
               </p>
             </Card>
           </Space>
@@ -38,7 +46,11 @@ export const RechargePin = () => {
                 {" "}
                 Advanced fraud detection mechanism
               </p>
-              <p>Icon here</p>
+              <p>
+                <LockOutlined
+                  style={{ width: 250, fontSize: "4rem", paddingTop: "20px" }}
+                />
+              </p>
             </Card>
           </Space>
         </div>
@@ -55,7 +67,11 @@ export const RechargePin = () => {
                 {" "}
                 Easy accounting, reconciliation, and audits
               </p>
-              <p>Icon here</p>
+              <p>
+                <BookOutlined
+                  style={{ width: 250, fontSize: "4rem", paddingTop: "20px" }}
+                />
+              </p>
             </Card>
           </Space>
         </div>
@@ -72,20 +88,31 @@ export const RechargePin = () => {
                 {" "}
                 Two-factor verification
               </p>
-              <p>Icon here</p>
+              <p>
+                <SecurityScanOutlined
+                  style={{ width: 250, fontSize: "4rem", paddingTop: "40px" }}
+                />
+              </p>
             </Card>
           </Space>
         </div>
       </div>
-      <div className="w-2/3">
-        <p className="text-4xl p-5 mt-24 font-bold w-2/3">
+      <div className="lg:w-2/3 lg:p-0 p-5">
+        <p className="text-4xl lg:p-5 mt-24 font-bold w-full lg:w-2/3 ">
           Universal Recharge Pin Generator API
         </p>
-        <p className="p-5 w-2/3">
+        <p className="p-5 lg:w-2/3 tracking-wide text-xl leading-relaxed">
           Businesses can now integrate the Airvend USSD API and enjoy lots of
-          custom services.<br></br> ● Customizable <br></br>● Airtime recharge vouchers and
-          gifting <br></br> ● Data subscription and gifting <br></br> ● Electricity recharge <br></br>● Cable
-          TV recharge and more One universal recharge pin for all networks.
+          custom services.
+          <ul className="list-disc p-5">
+            <li> Customizable </li>
+            <li> Airtime recharge</li>
+            <li> vouchers and gifting</li>
+            <li> Data subscription and gifting</li>
+            <li> Electricity recharge </li>
+            <li> Cable TV recharge and more</li>
+            <li>One universal recharge pin for all networks</li>
+          </ul>
         </p>
       </div>
     </div>

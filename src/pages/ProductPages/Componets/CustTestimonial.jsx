@@ -1,15 +1,16 @@
 import React from "react";
 import { Divider, Avatar, Space } from "antd";
 import { UserOutlined } from "@ant-design/icons";
+import { Link } from "react-router-dom";
 
 const CustTestimonial = () => {
   return (
-    <div className="bg-[#e5effd] mt-20 p-20">
-      <p className="text-5xl font-medium text-center px-20 pt-5 ">
+    <div className="bg-[#e5effd] mt-20 lg:p-20">
+      <p className="lg:text-5xl text-3xl font-medium text-center px-20 pt-5 ">
         Customer
         <span className="text-[#4834d4]"> Testimonials</span>{" "}
       </p>
-      <p className="font-normal py-10 text-center text-[#565555] tracking-wide leading-relaxed text-lg">
+      <p className="font-normal lg:py-10 p-5 text-center text-[#565555] tracking-wide leading-relaxed text-lg">
         Lorem ipsum, dolor sit amet Numquam labore velit corrupti, ut, <br />{" "}
         rerum totam quas vero soluta aliquam ex Voluptatibus molestias nostrum
         earum doloremqu
@@ -25,11 +26,15 @@ const CustTestimonial = () => {
           </div>
         </div>
         <div>
-          <p className="text-[#4834d4] ml-5 mt-10">View more ---{">"} </p>
+         <Link to= "/testimonials/viewall-Testimonials">
+         
+          <button className="text-[#4834d4] ml-5 mt-10">View more ---{">"} </button>
+          </Link>
         </div>
       </div>
     </div>
   );
 };
+
 
 export default CustTestimonial;

@@ -1,5 +1,5 @@
 import React from "react";
-import { DownOutlined } from "@ant-design/icons";
+import { CaretDownOutlined } from "@ant-design/icons";
 import { Dropdown, message, Space } from "antd";
 import { Link } from "react-router-dom";
 const onClick = ({ key }) => {};
@@ -9,7 +9,7 @@ const items = [
     key: "1",
   },
   {
-    label: <Link to="/testimonials">Testimonials</Link>,
+    label: <Link to="/testimonials/viewall-Testimonials">Testimonials</Link>,
     key: "2",
   },
   {
@@ -35,7 +35,7 @@ const Resources = () => (
     <a onClick={(e) => e.preventDefault()} className="hover:text-indigo-700">
       <Space>
         Resources
-        <DownOutlined />
+        <CaretDownOutlined />
       </Space>
     </a>
   </Dropdown>

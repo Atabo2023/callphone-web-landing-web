@@ -1,5 +1,5 @@
 import React from "react";
-import { DownOutlined } from "@ant-design/icons";
+import { CaretDownOutlined} from "@ant-design/icons";
 import { Dropdown, message, Space } from "antd";
 import { Link } from "react-router-dom";
 
@@ -33,7 +33,7 @@ const Company = () => (
     <a onClick={(e) => e.preventDefault()} className="hover:text-indigo-700">
       <Space>
         Company
-        <DownOutlined />
+        <CaretDownOutlined />
       </Space>
     </a>
   </Dropdown>

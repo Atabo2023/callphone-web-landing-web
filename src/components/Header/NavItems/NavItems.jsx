@@ -6,7 +6,7 @@ import Blog from "./Blog";
 
 export const NavItems = () => {
   return (
-    <div className="flex justify-evenly ">
+    <div className="lg:flex lg:justify-evenly ">
       <Products />
       <Company />
       <Resources />

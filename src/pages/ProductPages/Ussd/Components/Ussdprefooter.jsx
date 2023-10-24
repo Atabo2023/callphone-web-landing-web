@@ -1,19 +1,24 @@
 import React from "react";
 import phone2 from "../../../../assets/images/phoneImage2.svg";
+import usdimg from "../../../../assets/images/SiteImages/call_screen_1.png";
 import { ContactbtOutline } from "../../../../components/Buttons/ContactBtn";
 
 const UssdPrefooter = () => {
   return (
-    <div className="bg-[#4834d4] text-white">
-      <div className=" px-20 py-20 justify-center flex">
-        <div className="pr-5">
-          <img src={phone2} alt="img" />
-        </div>
-        <div className="p-5 text-xl  w-1/2 mt-10">
-          <p className="text-4xl font-medium w-4/5 text-left ">
-            One universal recharge pin for all networks
+    <div className="bg-[#4834d4]  text-white">
+      <div className="justify-center flex">
+        {/* <div className="hidden md:flex py-2">
+          <img src={usdimg} alt="img" 
+          style={{width: 300}}
+          />
+        </div> */}
+        <div className="text-xl md:my-20 mt-7 ">
+          <p className="md:text-4xl text-2xl font-medium text-center ">
+            One universal recharge <br></br> pin for all networks
           </p>
-          <ContactbtOutline/>
+          <div className="md:py-10 py-5 text-center">
+            <ContactbtOutline />
+          </div>
         </div>
       </div>
     </div>

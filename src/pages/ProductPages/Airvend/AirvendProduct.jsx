@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import { Header } from "../../../components/Header/Header";
 import { Footer } from "../../../components/Footer/Footer";
 import Hero from "./components/Hero";
@@ -17,24 +18,28 @@ const Airvend = () => {
     <>
       <Header />
       <Hero />
-      <TransferSec />
-      <AirtimeSec />
-      <CableSubSec />
-      <ElectricBillsSec />
-      <div>
-        <p className="text-5xl font-medium text-center px-20 pt-5 leading-tight ">
-          Instant Wallet Funding; <br /> Diverse{" "}
-          <span className="text-[#4834d4]">Options</span>{" "}
-        </p>
-        <p className="font-normal py-10 text-center text-[#565555] tracking-wide leading-relaxed text-lg">
-          Lorem ipsum, dolor sit amet Numquam labore velit corrupti, ut, <br />{" "}
-          rerum totam quas vero soluta aliquam ex Voluptatibus molestias nostrum
-          earum doloremqu
-        </p>
+      <div className="lg:px-24 p-5">
+        <TransferSec />
+        <AirtimeSec />
+        <CableSubSec />
+        <ElectricBillsSec />
+        <div>
+          <p className="lg:text-5xl text-4xl font-medium text-center lg:px-20 mt-10 leading-tight ">
+            Instant Wallet Funding; <br /> Diverse{" "}
+            <span className="text-[#4834d4]">Options</span>{" "}
+          </p>
+          <p className="font-normal py-10 text-center text-[#565555] tracking-wide leading-relaxed text-lg">
+            Lorem ipsum, dolor sit amet Numquam labore velit corrupti, ut,{" "}
+            <br /> rerum totam quas vero soluta aliquam ex Voluptatibus
+            molestias nostrum earum doloremqu
+          </p>
+        </div>
       </div>
       <Vendcards />
       <CustTestimonial />
-      <Prefooter />
+      <div className="my-5">
+        <Prefooter />
+      </div>
       <Footer />
     </>
   );
