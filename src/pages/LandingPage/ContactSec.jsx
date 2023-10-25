@@ -1,6 +1,8 @@
 import React from "react";
 import { ContactbtOutline } from "../../components/Buttons/ContactBtn";
 import bgImage from "../../assets/images/BgImages/bgImage1.svg";
+import miniphone from "../../assets/icons/miniIcon/miniphone.svg";
+import { motion } from "framer-motion";
 
 export const ContactSec = () => {
   return (
@@ -9,18 +11,14 @@ export const ContactSec = () => {
         className="flex bg-[#4834d4] h-96 justify-center items-center bg-no-repeat bg-right"
         style={{ backgroundImage: `url(${bgImage})` }}
       >
-        <div className="flex flex-col text-center">
-          <div className="flex">
-            <div className="p-10 mr-10"> Phone image here</div>
+        <div className="align-center">        
             <div>
-              {" "}
-              <h1 className="text-gray-100 text-3xl font-normal leading-10 mb-4">
-                Contact us to discuss how we can partner to make digital <br />
+              <h1 className="text-gray-100 px-3 text-center text-3xl font-normal leading-relaxed">
+                Contact us to discuss how we can partner  <br /> to make digital
                 payments simplified for you.
               </h1>
             </div>
-          </div>
-          <div className=" text-center ">
+          <div className=" text-center mt-8 lg:m-10">
             <ContactbtOutline />
           </div>
         </div>

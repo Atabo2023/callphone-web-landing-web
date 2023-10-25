@@ -1,68 +1,86 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import Image from "../../assets/images/image.svg";
 import { Header } from "../../components/Header/Header";
 import { Footer } from "../../components/Footer/Footer";
-import { ProductsBtn } from "../../components/Buttons/ProductsBtn";
+// import { ProductsBtn } from "../../components/Buttons/ProductsBtn";
+import { motion } from "framer-motion";
 import usersAvaters from "../../assets/images/avaters.svg";
 import { LicenceSection } from "./Licence";
 import CarouselPic from "./Carousel";
 import { ProductSection } from "./ProductSection/ProductSection";
 import { PartnerSec } from "./Partners";
 import { ContactSec } from "./ContactSec";
-import { Spin } from "antd";
+import { Link } from "react-router-dom";
 
 const LandingPage = () => {
-  const [pageLoaded, setPageLoaded] = useState(false);
+  const productSectionRef = useRef(null);
 
-  useEffect(() => {
-    // Simulate the page load event
-    setTimeout(() => {
-      setPageLoaded(true);
-    }, 2000);
-  }, []);
+  const scrollToProductSection = () => {
+    const scroller = document.getElementById("scrollProduct");
+    scroller.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div>
       <Header />
       <div>
-        {pageLoaded ? (
-          <div className="opacity-100 transition-opacity duration-300 ease-in-out">
-            <div className="bg-[#e5effd] p-5 mt-1 lg:flex md:grid opacity-100 transition-opacity duration-100 ease-in-out">
-              <div className="lg:w-2/5">
-                <div className="text-6xl font-extrabold mt-20 w-85 p-8 leading-tight">
-                  <h2>
+        <div className="opacity-100  transition-opacity duration-300 ease-in-out">
+          <div className="bg-[#e5effd]">
+            <div className="lg:px-24 p-5 mt-1 flex lg:flex-row flex-col opacity-100 transition-opacity duration-100 ease-in-out">
+              <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ ease: "easeIn", duration: 1 }}
+                className="lg:w-1/2"
+              >
+                <div className="lg:text-6xl lg:text-left text-center text-4xl font-extrabold lg:mt-14 w-85 lg:p-8 p-3 ">
+                  <h2 className="leading-tight">
                     Digital Payment <br></br>Simplifed For
                   </h2>
-                  <h1 className="underline text-[#4834d4]">Everyone.</h1>
+                  <h1 className="underline leading-tight  text-[#4834d4]">
+                    Everyone.
+                  </h1>
                 </div>
                 <div>
-                  <p className="font-normal pl-8 lg:w-full  text-[#565555] tracking-wide leading-relaxed text-lg ">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aspernatur vel incidunt pariatur exercitationem tenetur
-                    error sunt.
+                  <p className="font-normal lg:pl-8 p-5 md:w-full text-justify text-[#565555] tracking-normal leading-relaxed text-lg ">
+                    Secure and seamless transactions at all times. Enjoy 100%
+                    availability and efficiency on the Airvend Mobile app,
+                    Airgate Payment Gateway, *174# USSD code, and all POS
+                    terminals.
                   </p>
                 </div>
-                <div className="pl-8 py-6">
-                  <img src={usersAvaters} alt="users" />
-                </div>
-                <div className="p-10 md:pl-8 md:py-6 ">
-                  <ProductsBtn />
-                </div>
-              </div>
 
-              <div className="lg:w-1/2 pt-10 md:ml-28">
-                <CarouselPic />
-              </div>
+                <div className="p-10 md:pl-8 md:py-6 ">
+                  <Link to="/">
+                    <button
+                      className="rounded-md bg-indigo-600 hover:bg-indigo-700 text-white min-w-[200px] py-3 px-14 font-medium"
+                      onClick={scrollToProductSection}
+                    >
+                      Products
+                    </button>
+                  </Link>
+                  <div className="lg:mt-20">
+                    <LicenceSection />
+                  </div>
+                </div>
+              </motion.div>
+              <motion.div
+                animate
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ ease: "easeIn", duration: 2 }}
+                className=" lg:p-2 lg:h-0 h-4/5"
+              >
+                <div className="md:mt-24 md:ml-5">
+                  <img src={Image} alt="img" />
+                </div>
+              </motion.div>
             </div>
-            <LicenceSection />
-            <ProductSection />
-            <PartnerSec />
-            <ContactSec />
           </div>
-        ) : (
-          <div className="flex items-center justify-center h-screen">
-            <Spin size="large" />
-          </div>
-        )}
+          <ProductSection />
+          <PartnerSec />
+          <ContactSec />
+        </div>
       </div>
       <Footer />
     </div>

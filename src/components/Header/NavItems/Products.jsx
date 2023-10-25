@@ -3,6 +3,10 @@ import { DownOutlined, CaretDownOutlined } from "@ant-design/icons";
 import { Dropdown, Space } from "antd";
 import { Link } from "react-router-dom";
 
+// const onClick = ({ key }) => {
+//   setOpen(!isOpen);
+// };
+
 const items = [
   {
     label: <Link to="/airvend">Airvend</Link>,
@@ -25,16 +29,18 @@ const Products = () => (
   <Dropdown
     menu={{
       items,
+      // onClick
     }}
+    // onClick={() => setOpen(!isOpen)}
   >
-    <a className="hover:text-indigo-700" overlay={items}>
-      <Space>
-        Products
-        {/* <DownOutlined 
-       /> */}
-        <CaretDownOutlined />
-      </Space>
-    </a>
+    {/* {isOpen && ( */}
+      <a className="hover:text-indigo-700" overlay={items}>
+        <Space>
+          Products
+          <CaretDownOutlined />
+        </Space>
+      </a>
+    {/* )} */}
   </Dropdown>
 );
 export default Products;

@@ -1,10 +1,18 @@
 /* custom-antd-styles.css */
+p {
+  line-height: 1.6;
+}
+h1 {
+  line-height: 0.8;
+}
 
+/* ANTD CUSTOMIZATION HERE */
 /* Target the dropdown content */
 
 /* Ant Design Dropdown styles */
 .ant-dropdown-menu {
-  min-height: 180px;
+  max-height: 180px;
+  min-height: 100px;
   min-width: 220px;
 }
 
@@ -19,11 +27,53 @@
   background-color: #fff !important;
 }
 
+/* Customize the color of the wave in a Spinner with the wave class */
+
+.ant-spin-dot.ant-spin-dot-spin .ant-spin-dot-item {
+  background-color: #4834d4;
+}
+
+.ant-spin-dot .ant-spin-dot-wave {
+  background-color: #4834d4;
+}
+
+/* Your CSS file or inline styles */
+@media (min-width: 768px) {
+  .ant-card .ant-card {
+    width: auto;
+    height: 400;
+    padding-left: 30;
+  }
+}
+/* THE CHECKBOX DESIGN */
+.custom-checkbox .ant-checkbox-checked .ant-checkbox-inner {
+  border-color: #f1eefb;
+  /* background-color: #4834d4; */
+  background-color: #f1eefb;
+}
+
+.custom-checkbox .ant-checkbox:hover .ant-checkbox-inner {
+  background-color: #4834d4;
+  border-color: #f1eefb;
+}
+
+.custom-checkbox .ant-checkbox-inner {
+  background-color: #f1eefb;
+  border-color: #f1eefb;
+}
+
+.custom-checkbox .ant-checkbox-checked .ant-checkbox-inner::after {
+  border-color: #4834d4; /* Change color for the checked checkmark */
+}
+
 /* USSD section card styles */
 .custom-card {
   background-color: #f4f4f4;
   color: #56555584;
   transition: background-color 0.3s;
+
+  /* display: flex; */
+  /* flex-grow: inherit; */
 }
 
 .custom-card:hover {
@@ -39,7 +89,14 @@
 }
 
 .custom-cards:hover {
+  /* background-color: #e5effd; */
   background-color: #e5effd;
+@media (min-width: 768px) {
+  .custom-cards {
+    width: 100%; 
+    padding: 4px;
+  }
+}
 }
 
 /* Career section card styles */
@@ -68,6 +125,24 @@
 
 @media (max-width: 480px) {
   .image-container {
-    grid-template-columns: 1fr; /* Single column for very small screens */
+    grid-template-columns: 1fr;
+    width: 416px;
+    height: 916px;
   }
 }
+/* Image responsiveness */
+@media (max-width: 768px) {
+  .responsive-image {
+    width: 416px;
+    height: 916px;
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-image {
+    width: 300px;
+    height: 416px;
+  }
+}
+
+

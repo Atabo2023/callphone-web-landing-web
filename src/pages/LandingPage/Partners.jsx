@@ -18,7 +18,7 @@ export const PartnerSec = () => {
   return (
     <>
       <div className="grid justify-items-center ">
-        <p className="text-5xl font-medium text-center px-20 pt-20">
+        <p className="text-5xl font-semibold text-center px-20 pt-20">
           Our <span className="text-[#4834d4]">Partners</span>{" "}
         </p>
         <p className="text-xl font-light text-center py-10 px-5 md:w-1/2 w-full text-[#565555] tracking-wide leading-relaxed">
@@ -27,29 +27,29 @@ export const PartnerSec = () => {
           effectiveness and efficiency in operation
         </p>
       </div>
-      <div className="grid md:grid-cols-5 grid-cols-2 p-10 md:ml-10 justify-center">
-        <div>
+      <div className="grid md:grid-cols-5 grid-cols-3 gap-6 px-6 lg:px-20 py-14 items-center md:ml-10 justify-center">
+        <div className="p-5">
           <img src={grandTIcon} alt="icon" />
         </div>
-        <div className="pt-14 px-8">
+        <div>
           <img src={MtnIcon} alt="icon" />
         </div>
-        <div className="pt-10">
+        <div>
           <img src={mobileIcon} alt="icon" />
         </div>
-        <div className="pt-14">
+        <div>
           <img src={gtbankIcon} alt="icon" />
         </div>
-        <div className="pt-14">
+        <div>
           <img src={gloIcon} alt="icon" />
         </div>
-        <div className="md:p-10 py-16">
+        <div className="p-5">
           <img src={zenithIcon} alt="icon" />
         </div>
         <div className="img-[#0a1f44]">
           <img src={nibbsIcon} alt="icon" />
         </div>
-        <div className="pt-14">
+        <div>
           <img src={aelexIcon} alt="icon" />
         </div>
         <div>
@@ -58,16 +58,16 @@ export const PartnerSec = () => {
         <div>
           <img src={firstIcon} alt="icon" />
         </div>
-        <div className="pt-14 md:p-0">
+        <div>
           <img src={psbIcon} alt="icon" />
         </div>
-        <div className="pt-14 md:p-0">
+        <div>
           <img src={szztIcon} alt="icon" />
         </div>
-        <div className="pt-14 md:p-0">
+        <div>
           <img src={unionIcon} alt="icon" />
         </div>
-        <div className="pt-20 px-5 md:p-0">
+        <div>
           <img src={standardIcon} alt="icon" />
         </div>
       </div>

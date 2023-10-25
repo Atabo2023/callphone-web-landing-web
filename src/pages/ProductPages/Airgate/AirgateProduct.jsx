@@ -1,42 +1,49 @@
 import React from "react";
 import { Header } from "../../../components/Header/Header";
 import { Footer } from "../../../components/Footer/Footer";
-import CustTestimonial from "../Componets/CustTestimonial";
 import AirgateHero from "./Components/AirgateHero";
-import {
-  CollectPaySec,
-  DocumentationSec,
-  EazyAdminSec,
-  ReportingSec,
-  TrackTransSec,
-} from "./Components/AirgateUtilis";
 import { AirgatePrefooter } from "./Components/AirgatePrefooter";
+import { Link } from "react-router-dom";
+import { Avatar } from "antd";
+
+import CustTestimonial from "../Componets/CustTestimonial";
 
 const Airgate = () => {
   return (
     <div>
       <Header />
       <AirgateHero />
-      <div className="text-2xl text-[#56555584] tracking-wide leading-relaxed w-3/5 p-10">
-        <p>
-          <span className="text-black">From online </span>stores to social media
-          stores and physical stores, our B2B and B2C payment gateway empowers
-          your business to thrive. You handle the sales; Airgate handles the
-          payment collection.
-        </p>
+      <div>
+        <div className="lg:p-20">
+          <p className="lg:text-5xl text-3xl font-medium text-center px-20 pt-5 ">
+            Customer
+            <span className="text-[#4834d4]"> Testimonials</span>{" "}
+          </p>
+          <p className="font-normal lg:py-10 p-5 text-center text-[#565555] tracking-wide leading-relaxed text-lg">
+            Lorem ipsum, dolor sit amet Numquam labore velit corrupti, ut,{" "}
+            <br /> rerum totam quas vero soluta aliquam ex Voluptatibus
+            molestias nostrum earum doloremqu
+          </p>
+          <div className="flex justify-center divide-x divide-slate-700 p-5">
+            <div className="flex p-2">
+              <div className="m-2">
+                <Avatar size={64} />
+              </div>
+              <div className="block mt-3 mr-5 text-[#565555]">
+                <p className="font-bold">Name Surname</p>
+                <p>Position, Company Name</p>
+              </div>
+            </div>
+            <div>
+              <Link to="/testimonials/viewall-Testimonials">
+                <button className="text-[#4834d4] ml-5 mt-10">
+                  View more ---{">"}{" "}
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="p-10 m-5 tracking-wide leading-relaxed text-center  text-4xl font-bold ">
-        <p>
-          Simple, Secure, and Fast Payment Gateway for <br /> Smart Business
-          Owners
-        </p>
-      </div>
-      <CollectPaySec />
-      <TrackTransSec />
-      <ReportingSec />
-      <EazyAdminSec />
-      <DocumentationSec />
-      <CustTestimonial />
       <AirgatePrefooter />
       <Footer />
     </div>
