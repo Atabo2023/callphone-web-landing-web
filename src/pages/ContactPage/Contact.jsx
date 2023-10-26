@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Header } from "../../components/Header/Header";
 import { Footer } from "../../components/Footer/Footer";
 import { Card, Row, Space } from "antd";
@@ -10,7 +10,11 @@ import {
 import bgimage from "../../assets/images/BgImages/bgImage2.svg";
 
 const Contact = () => {
-  
+  const [showMap, setShowMap] = useState(false);
+
+  const handleButtonClick = () => {
+    setShowMap(true);
+  };
   return (
     <div>
       <Header />
@@ -79,7 +83,6 @@ const Contact = () => {
                   <p className="text-xl font-medium px-4 py-5">Office</p>
                   <div className="flex justify-around ">
                     <p>
-                   
                       <i>
                         <EnvironmentOutlined />
                       </i>{" "}
@@ -100,7 +103,10 @@ const Contact = () => {
                       Port Harcourt
                     </p>
                   </div>
-                  <button className="rounded-full bg-black text-white py-2 px-10 mx-4 my-5">
+                  <button
+                    onClick={handleButtonClick}
+                    className="rounded-full bg-black text-white py-2 px-10 mx-4 my-5"
+                  >
                     Location
                   </button>
                 </div>
@@ -108,6 +114,19 @@ const Contact = () => {
             </div>
           </div>
         </div>
+        {showMap && (
+          <div className="lg:px-20 px-5 content-center m-5">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.473758314135!2d7.4741761752440095!3d9.11160918768994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0bea119589dd%3A0xbc32b05b2d73a81f!2sCallphone%20Limited%20(Airvend)!5e0!3m2!1sen!2suk!4v1698270300301!5m2!1sen!2suk"
+              width="100%"
+              height="450"
+              style={{ border: "0" }}
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        )}
       </div>
       <Footer />
     </div>
