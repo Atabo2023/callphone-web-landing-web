@@ -71,9 +71,6 @@ h1 {
   background-color: #f4f4f4;
   color: #56555584;
   transition: background-color 0.3s;
-
-  /* display: flex; */
-  /* flex-grow: inherit; */
 }
 
 .custom-card:hover {
@@ -89,14 +86,13 @@ h1 {
 }
 
 .custom-cards:hover {
-  /* background-color: #e5effd; */
   background-color: #e5effd;
+}
 @media (min-width: 768px) {
   .custom-cards {
-    width: 100%; 
+    width: 100%;
     padding: 4px;
   }
-}
 }
 
 /* Career section card styles */
@@ -144,5 +140,3 @@ h1 {
     height: 416px;
   }
 }
-
-
