@@ -14,7 +14,7 @@ const Airgate = () => {
       <Header />
       <AirgateHero />
       <div>
-        <div className="lg:p-20">
+        {/* <div className="lg:p-20">
           <p className="lg:text-5xl text-3xl font-medium text-center px-20 pt-5 ">
             Customer
             <span className="text-[#4834d4]"> Testimonials</span>{" "}
@@ -42,7 +42,7 @@ const Airgate = () => {
               </Link>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <AirgatePrefooter />
       <Footer />

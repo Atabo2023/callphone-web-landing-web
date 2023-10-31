@@ -25,8 +25,8 @@ const sidebarItems = [
     icon: <BankOutlined />,
   },
   { label: "Airgate", key: "airgate-Testimonials", icon: <DesktopOutlined /> },
-  { label: "B2B", key: "airpay-Testimoniaas", icon: <UsergroupAddOutlined /> },
-  { label: "USSD", key: "airvend-Testimonwals", icon: <SolutionOutlined /> },
+  { label: "B2B", key: "b2b-Testimonials", icon: <UsergroupAddOutlined /> },
+  { label: "USSD", key: "ussd-Testimonials", icon: <SolutionOutlined /> },
 ];
 
 const Testimonials = () => {
