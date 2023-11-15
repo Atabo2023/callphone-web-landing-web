@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import logo from "../../assets/icons/logo.svg";
 import { InstaIcon, LinkedinIcon, TwitterIcon } from "../../assets/icons";
 import { Link } from "react-router-dom";
@@ -12,7 +12,7 @@ export const Footer = () => {
             <div>
               <img src={logo} alt="logo" />
             </div>
-            <div >
+            <div>
               <p className="text-sm text-justify lg:p-2 px-3 mt-2 font-light py-3 w-full text-[#565555] tracking-wide leading-relaxed">
                 Callphone Ltd is an impact-driven payment solution and virtual
                 services distribution provider. A company registered under the
@@ -26,53 +26,61 @@ export const Footer = () => {
           <div className="w-full grid lg:grid-cols-4 px-3 grid-cols-2 lg:col-span-1 col-span-2">
             <ul>
               <h2 className="font-bold py-2"> Product</h2>
-              <li className="font-light p-2 text-[#565555]">
+              <li className="font-light py-2 text-[#565555]">
                 <Link to="/airvend">Airvend</Link>
               </li>
-              <li className="font-light p-2 text-[#565555]">
+              <li className="font-light py-2 text-[#565555]">
                 <Link to="/airpay">Airpay</Link>
               </li>
-              <li className="font-light p-2 text-[#565555]">
+              <li className="font-light py-2 text-[#565555]">
                 <Link to="/airgate">Airgate</Link>
               </li>
-              <li className="font-light p-2 text-[#565555]">
+              <li className="font-light py-2 text-[#565555]">
                 <Link to="/ussdPage">USSD</Link>
               </li>
             </ul>
             <ul>
               <h2 className="font-bold py-2">Company</h2>
-              <li className="font-light p-2 text-[#565555]">
+              <li className="font-light py-2 text-[#565555]">
                 <a href="/about ">About</a>
               </li>
-              <li className="font-light p-2 text-[#565555]">
+              <li className="font-light py-2 text-[#565555]">
                 <a href="/team ">Team</a>
               </li>
-              <li className="font-light p-2 text-[#565555]">
+              <li className="font-light py-2 text-[#565555]">
                 <a href="/gallery ">Gallery</a>
               </li>
-              <li className="font-light p-2 text-[#565555]">
+              <li className="font-light py-2 text-[#565555]">
                 <a href="/career ">Careers</a>
               </li>
             </ul>
             <ul>
               <h2 className="font-bold py-2">Resources</h2>
-              <li className="font-light p-2 text-[#565555]">
+              <li className="font-light py-2 text-[#565555]">
                 <a href="/news ">News</a>
               </li>
-              <li className="font-light p-2 text-[#565555]">
+              <li className="font-light py-2 text-[#565555]">
                 <a href="/testimonials/viewall-Testimonials">Testimonials</a>
               </li>
-              <li className="font-light p-2 text-[#565555]">
-                <a href="/ ">Videos</a>
+              <li className="font-light py-2 text-[#565555]">
+                <a
+                  href="https://www.youtube.com/@airvendng"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Videos
+                </a>
               </li>
-              <li className="font-light p-2 text-[#565555]">
+              <li className="font-light py-2 text-[#565555]">
                 <a href="/blogs ">Blogs</a>
               </li>
             </ul>
             <ul>
               <h2 className="font-bold py-2"> Contact </h2>
-              <li className="font-light p-2 text-[#565555]">(+234)9061163130</li>
-              <li className="font-light p-2 underline text-[#565555]">
+              <li className="font-light py-2 text-[#565555]">
+                (+234)9061163130
+              </li>
+              <li className="font-light py-2 underline text-[#565555]">
                 <a href="mailto:info@callphoneng.com">info@callphoneng.com</a>
               </li>
             </ul>
@@ -80,29 +88,28 @@ export const Footer = () => {
           <div className="col-span-2">
             <ul className="lg:flex p-2 mt-5 lg:gap-32 ">
               <div>
-              <p className="font-bold p-2 mt-4">Office Address:</p>
+                <p className="font-bold p-2 mt-4">Office Address:</p>
               </div>
               <li>
-              <p className="font-bold p-2"> Abuja</p>
-              <p className="font-light p-2 text-[#565555]">
-                Plot 1152, Cadastral Zone, Katampe District, opposite Bon Hotels
-                Grand Towers. Abuja.
-              </p>
+                <p className="font-bold p-2"> Abuja</p>
+                <p className="font-light p-2 text-[#565555]">
+                  Plot 1152, Cadastral Zone, Katampe District, opposite Bon
+                  Hotels Grand Towers. Abuja.
+                </p>
               </li>
-             <li>
-             <p className="font-bold p-2">Lagos</p>
-              <p className="font-light p-2 text-[#565555]">
-                8a Residence Street,Gbagada Phase 2, Gbagada, Lagos State.
-              </p>
-             </li>
-             <li>
-             <p className="font-bold p-2">Port Harcourt</p>
-              <p className="font-light p-2 text-[#565555]">
-                SAAC PLAZA, K/m 60, PH/ABA express road, Opposite Timber market,
-                Oyigbo, Rivers State.
-              </p>
-             </li>
-              
+              <li>
+                <p className="font-bold p-2">Lagos</p>
+                <p className="font-light p-2 text-[#565555]">
+                  8a Residence Street,Gbagada Phase 2, Gbagada, Lagos State.
+                </p>
+              </li>
+              <li>
+                <p className="font-bold p-2">Port Harcourt</p>
+                <p className="font-light p-2 text-[#565555]">
+                  SAAC PLAZA, K/m 60, PH/ABA express road, Opposite Timber
+                  market, Oyigbo, Rivers State.
+                </p>
+              </li>
             </ul>
           </div>
         </div>

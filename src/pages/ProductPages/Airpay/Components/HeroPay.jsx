@@ -10,14 +10,9 @@ const HeroPay = () => {
     <>
       <div
         className="bg-[#e5effd] p-5 mt-1 flex lg:flex-row flex-col"
-        // style={{
-        //   backgroundImage: `url(${bgimage})`,
-        //   backgroundRepeat: "repeat-y",
-        //   backgroundPosition: "right",
-        // }}
       >
         <div className="lg:w-3/5 lg:px-28">
-          <div className="lg:text-6xl text-4xl font-bold lg:mt-10 w-full py-5 leading-tight">
+          <div className="lg:text-6xl text-4xl font-bold lg:mt-10 w-full py-5 md:leading-relaxed">
             <h2>
               Enjoy Seamless Transactions With{" "}
               <span className=" text-[#4834d4]">Airpay POS</span>
@@ -34,7 +29,7 @@ const HeroPay = () => {
               get a POS terminal.
             </p>
           </div>
-          <div className="py-8 px-3 justify-between flex">
+          <div className="py-8  justify-between flex">
             <Contactbtn />
             {/* <WhatsappOutline/> */}
           </div>

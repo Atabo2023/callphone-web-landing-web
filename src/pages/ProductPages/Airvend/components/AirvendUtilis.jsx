@@ -54,7 +54,7 @@ export const CableSubSec = () => {
     <>
       <div className="lg:flex lg:p-5">
         <div className="lg:w-1/2 mt-10 ">
-          <p className="lg:text-5xl text-4xl font-medium lg:px-5 leading-relaxed pl-8 py-5 mt-10 lg:mt-5">
+          <p className="lg:text-5xl text-4xl font-medium lg:px-4 leading-relaxed pl-8 py-5 mt-10 lg:mt-5">
             Cable TV Subscription
           </p>
           <p className="text-xl font-light md:pl-4 lg:py-3 px-2 text-justify lg:w-4/5 w-full text-[#565555] tracking-wide leading-relaxed">
@@ -80,7 +80,7 @@ export const ElectricBillsSec = () => {
           <img src={image06} alt="icon" />
         </div>
         <div className="lg:w-1/2 ml-10">
-          <p className="lg:text-5xl text-4xl font-medium lg:px-8 mt-10 pl-8 py-5">
+          <p className="lg:text-5xl text-4xl font-medium lg:px-9 mt-10 pl-8 py-5">
             Electricity Bills Payment
           </p>
           <p className="text-xl font-light md:pl-10 lg:py-3 text-justify  w-full text-[#565555] tracking-wide leading-relaxed">

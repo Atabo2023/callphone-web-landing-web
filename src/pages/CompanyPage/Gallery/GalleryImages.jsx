@@ -19,8 +19,7 @@ const Images = () => {
           "https://res.cloudinary.com/calllphone/image/upload/v1698673177/website%20Images/_DSC9821_syqvk2.jpg",
           "https://res.cloudinary.com/calllphone/image/upload/v1698179988/website%20Images/WhatsApp_Image_2023-09-20_at_19.14.03_gqbluu.jpg",
         ].map((imageSrc, index) => (
-          // <LazyLoad key={index} height={200} offset={100}>
-          <Spin spinning={false} size="large" className="spinner-container">
+          <Spin key={index} spinning={false} size="large" className="spinner-container">
             <Image
               key={index}
               src={imageSrc}

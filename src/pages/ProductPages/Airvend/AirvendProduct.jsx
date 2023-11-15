@@ -29,9 +29,10 @@ const Airvend = () => {
             <span className="text-[#4834d4]">Options</span>{" "}
           </p>
           <p className="font-normal py-10 text-center text-[#565555] tracking-wide leading-relaxed text-lg">
-            Lorem ipsum, dolor sit amet Numquam labore velit corrupti, ut,{" "}
-            <br /> rerum totam quas vero soluta aliquam ex Voluptatibus
-            molestias nostrum earum doloremqu
+            Ensures a convenient and accessible means for users to fund their
+            wallets instantly,  <br></br> by providing diverse options for quickly
+            replenishing their digital wallets.  <br></br> Whether through bank
+            transfers, debit cards or via your airvend Wallet.
           </p>
         </div>
       </div>

@@ -7,7 +7,7 @@ const HeroCareer = () => {
     <>
       <div className="bg-[#e5effd] p-5 lg:px-28 mt-1 lg:flex md:grid">
         <div className="lg:w-3/5">
-          <div className="lg:text-6xl text-4xl font-bold lg:mt-20 w-full p-2 lg:p-0 leading-tight">
+          <div className="lg:text-6xl text-4xl font-bold lg:mt-20 w-full text-left p-2 lg:p-0 leading-tight">
             <h2>
               Build Your <span className="text-[#4834d4]">Career</span> with
               Callphone Limited
