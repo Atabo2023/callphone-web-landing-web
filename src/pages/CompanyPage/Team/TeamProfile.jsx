@@ -1,6 +1,5 @@
 import React from "react";
-import { Card } from "antd";
-import image10 from "../../../assets/images/image10.svg";
+import { Card, Spin } from "antd";
 import image01 from "../../../assets/images/Team_Images/image.svg";
 import image02 from "../../../assets/images/Team_Images/image2.svg";
 import image03 from "../../../assets/images/Team_Images/image3.svg";
@@ -64,13 +63,15 @@ export const TeamProfile = () => {
       <Card
         style={{ padding: "10px", marginTop: "20px" }}
         cover={
-          <img
-            src="https://res.cloudinary.com/calllphone/image/upload/v1698177284/website%20Images/MD_S_HEADSHOT_wjhwo4.png"
-            alt="img"
-          />
+          <Spin spinning={false} size="large" className="spinner-container">
+            <img
+              src="https://res.cloudinary.com/calllphone/image/upload/v1699544016/website%20Images/MD_itldcq.jpg"
+              alt="img"
+            />
+          </Spin>
         }
       >
-        <p className="text-md text-[#444444] text-center">
+        <p className="text-md  text-[#444444] text-center">
           Managing Director/Chief Excutive Officer
         </p>
         <p className="text-xl font-normal text-center">Ekezie Precious</p>
@@ -78,7 +79,21 @@ export const TeamProfile = () => {
       </Card>
       <Card
         style={{ padding: "10px", marginTop: "20px" }}
-        cover={<img src={image10} alt="img" />}
+        cover={
+          <Spin spinning={false} size="large" className="spinner-container">
+            <img
+              src="https://res.cloudinary.com/calllphone/image/upload/v1699540042/website%20Images/lanre_3x-removebg-preview_vnzghm.png"
+              alt="img"
+              style={{
+                background: "#3D383D",
+                paddingTop: "30px",
+                paddingBottom: "120px",
+                paddingLeft: "10px",
+                paddingRight: "10px",
+              }}
+            />
+          </Spin>
+        }
       >
         <p className="text-md text-[#444444] text-center">
           ED Financial Inclusion Services

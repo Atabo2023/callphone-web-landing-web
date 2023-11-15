@@ -72,7 +72,7 @@ export const Header = () => {
           {isMenuOpen && (
             <>
               <div
-                className="w-4/5 ease-in-out fixed inset-0 bg-[#021856]	 text-white opacity-90 z-40"
+                className="w-4/5 ease-in-out fixed inset-0 bg-[#021856] lg:hidden text-white opacity-90 z-40"
                 onClick={closeMenu}
               >
                 <ul>
@@ -141,7 +141,7 @@ export const Header = () => {
                         </li>
                         <li className="px-6 py-3 hover:bg-indigo-700">
                           <a
-                            href="https://www.youtube.com"
+                            href="https://www.youtube.com/@airvendng"
                             target="_blank"
                             rel="noopener noreferrer"
                           >

@@ -4,7 +4,6 @@ export default {
   theme: {
     extend: {
       screens: {
-        // galaxy fold
         xs: "280px",
         lgX: "1300px",
       },

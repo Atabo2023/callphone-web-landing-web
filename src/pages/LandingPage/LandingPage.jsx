@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React from "react";
 import Image from "../../assets/images/image.svg";
 import { Header } from "../../components/Header/Header";
 import { Footer } from "../../components/Footer/Footer";
@@ -6,14 +6,13 @@ import { Footer } from "../../components/Footer/Footer";
 import { motion } from "framer-motion";
 import usersAvaters from "../../assets/images/avaters.svg";
 import { LicenceSection } from "./Licence";
-import CarouselPic from "./Carousel";
 import { ProductSection } from "./ProductSection/ProductSection";
 import { PartnerSec } from "./Partners";
 import { ContactSec } from "./ContactSec";
 import { Link } from "react-router-dom";
 
 const LandingPage = () => {
-  const productSectionRef = useRef(null);
+  // const productSectionRef = useRef(null);
 
   const scrollToProductSection = () => {
     const scroller = document.getElementById("scrollProduct");

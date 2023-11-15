@@ -10,31 +10,33 @@ const CustTestimonial = () => {
         Customer
         <span className="text-[#4834d4]"> Testimonials</span>{" "}
       </p>
-      <p className="font-normal lg:py-10 p-5 text-center text-[#565555] tracking-wide leading-relaxed text-lg">
-        Lorem ipsum, dolor sit amet Numquam labore velit corrupti, ut, <br />{" "}
-        rerum totam quas vero soluta aliquam ex Voluptatibus molestias nostrum
-        earum doloremqu
+      <p className="font-normal lg:py-10 p-5 w-full text-center text-[#565555] tracking-wide leading-relaxed text-lg">
+        "I’ve always preferred making transfers and having less cash with me,
+        and because of bank apps failures I have to keep withdrawing multiple
+        times a day to make payments. But since my friend introduced me to
+        Airvend, I’ve been making my mobile cash transfers without any
+        problems."
       </p>
       <div className="flex justify-center divide-x divide-slate-700 p-5">
         <div className="flex p-2">
           <div className="m-2">
-            <Avatar size={64}  />
+            <Avatar size={64} />
           </div>
           <div className="block mt-3 mr-5 text-[#565555]">
-            <p className="font-bold">Name Surname</p>
-            <p>Position, Company Name</p>
+            <p className="font-bold">Bolaji Daniels</p>
+            <p>@bolaji_Daniels</p>
           </div>
         </div>
         <div>
-         <Link to= "/testimonials/viewall-Testimonials">
-         
-          <button className="text-[#4834d4] ml-5 mt-10">View more ---{">"} </button>
+          <Link to="/testimonials/viewall-Testimonials">
+            <button className="text-[#4834d4] ml-5 mt-10">
+              View more ----{">"}{" "}
+            </button>
           </Link>
         </div>
       </div>
     </div>
   );
 };
-
 
 export default CustTestimonial;

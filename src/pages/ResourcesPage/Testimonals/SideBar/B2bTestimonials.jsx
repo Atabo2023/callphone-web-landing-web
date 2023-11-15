@@ -1,20 +1,17 @@
-import React from "react";
+import React from 'react'
 import { UserOutlined } from "@ant-design/icons";
 
-const AirgateTestimonal = () => {
+
+ const B2bTestimonials = () => {
+  
   const cards = [
     {
-      name: "Isa Zainab",
-      username: "@Zainab",
+      name: "Bimbo Adekunle",
+      username: "@Bimboadekunle",
       description:
-        "As a small business owner, finding the right payment gateway was crucial for my budget and efficiency. Airgate not only offers competitive rates but also an easy-to-use interface that integrates seamlessly with my website. It has simplified my financial processes and enhanced my customers shopping experience.",
+        "I started POS business as a side huddle and now it’s my full time means of income. Thanks to Airpay and their favorable operation system. My customers trust my transactions to always work so they always come back.",
     },
-    {
-      name: "Kenneth Ayomide",
-      username: "@Ayomide",
-      description:
-        "Switching to Airgate for handling client payments was a game-changer for my freelance business. The flexibility in payment options and the user-friendly dashboard make it easy for me to manage transactions. I can now focus more on my work and worry less about getting paid",
-    },
+
   ];
 
   return (
@@ -41,4 +38,4 @@ const AirgateTestimonal = () => {
   );
 };
 
-export default AirgateTestimonal;
+export default B2bTestimonials;

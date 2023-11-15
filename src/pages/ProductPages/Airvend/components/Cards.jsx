@@ -3,12 +3,16 @@ import { motion } from "framer-motion";
 import cardicon from "../../../../assets/icons/miniIcon/cardicon.svg";
 import bankicon from "../../../../assets/icons/miniIcon/bankicon.svg";
 import phonecardicon from "../../../../assets/icons/miniIcon/phonecard.svg";
+import PropTypes from "prop-types";
 
 const StyledCard = ({ children }) => (
   <div className="border border-gray-300 rounded-xl shadow-md m-5 p-6 max-w-xs">
     {children}
   </div>
 );
+StyledCard.propTypes = {
+  children: PropTypes.node,
+};
 
 const Vendcards = () => {
   const [bankCardOpen, setBankCardOpen] = useState(false);
@@ -35,18 +39,24 @@ const Vendcards = () => {
                 alt="svg"
                 initial={{ scale: 1, x: 20, y: 20 }}
                 animate={{ scale: bankCardOpen ? 1.1 : 1 }}
+                transition={{ ease: "easeInOut", duration: 0.5 }}
               />
             </p>
             <motion.p
               initial={{ scale: 1, x: 20, y: 20 }}
               animate={{ scale: bankCardOpen ? 0.7 : 1 }}
+              transition={{ ease: "easeInOut", duration: 0.5 }}
               className="font-medium lg:pl-4 pr-2 mb-5 text-3xl"
             >
               Fund Via Bank Transfer
             </motion.p>
           </motion.div>
           {bankCardOpen && (
-            <motion.p layout className="text-lg hover:visible pt-4">
+            <motion.p
+              transition={{ ease: "easeIn", duration: 3 }}
+              layout
+              className="text-lg hover:visible pt-4 ease-in-out duration-600"
+            >
               Fund your Airvend account with bank transfer. Copy your Airvend
               account details, transfer money into the account, and it instantly
               reflects in your Airvend account. You can fund your account or
@@ -74,11 +84,13 @@ const Vendcards = () => {
                 alt="svg"
                 initial={{ scale: 1, x: 20, y: 20 }}
                 animate={{ scale: debitCardOpen ? 1.1 : 1 }}
+                transition={{ ease: "easeInOut", duration: 0.5 }}
               />
             </p>
             <motion.p
               initial={{ scale: 1, x: 20, y: 20 }}
               animate={{ scale: debitCardOpen ? 0.7 : 1 }}
+              transition={{ ease: "easeInOut", duration: 0.5 }}
               className="font-medium lg:pl-4 pr-2 mb-5 text-3xl"
             >
               Fund Via Debit Card
@@ -112,11 +124,13 @@ const Vendcards = () => {
                 alt="svg"
                 initial={{ scale: 1, x: 20, y: 20 }}
                 animate={{ scale: airvendCardOpen ? 1.1 : 1 }}
+                transition={{ ease: "easeInOut", duration: 0.5 }}
               />
             </p>
             <motion.p
               initial={{ scale: 1, x: 20, y: 20 }}
               animate={{ scale: airvendCardOpen ? 0.7 : 1 }}
+              transition={{ ease: "easeInOut", duration: 0.5 }}
               className="font-medium lg:pl-0 pr-4  mb-5 text-3xl"
             >
               Fund Via Airvend

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import image7 from "../../../../assets/images/image7.svg";
+import image7 from "../../../../assets/images/SiteImages/ussd_2.jpg";
 
 export const Ussdbody = () => {
   const colors = ["#000000", "#888888"];
@@ -37,10 +37,7 @@ export const Ussdbody = () => {
           className="lg:mr-10 my-10 py-4 tracking-wide leading-relaxed text-lg"
         >
           <p className="text-4xl p-5 font-semibold">Recharge Voucher Gifts</p>
-          <p
-            // style={{ color: activeIndex === 1 ? colors[0] : colors[1] }}
-            className="p-5 w-full"
-          >
+          <p className="p-5 w-full">
             Show some love. Gift recharge vouchers to your family, friends,
             colleagues, and employees directly from your Airvend account using
             the shortcode.
@@ -62,7 +59,16 @@ export const Ussdbody = () => {
       </div>
 
       <div className="py-5 w-full">
-        <img src={image7} alt="img" />
+        <img
+          src={image7}
+          alt="img"
+          style={{
+            height: "100%",
+            // paddingBottom: "150px",
+            // paddingTop: "50px",
+            // borderRadius: "50px",
+          }}
+        />
       </div>
     </div>
   );

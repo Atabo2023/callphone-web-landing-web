@@ -16,7 +16,8 @@ import News from "../pages/ResourcesPage/News/News";
 import AboutPage from "../pages/CompanyPage/AboutUs/About";
 import TeamPage from "../pages/CompanyPage/Team/Team";
 import GalleryPage from "../pages/CompanyPage/Gallery/Gallery";
-
+import UssdTestimonial from "../pages/ResourcesPage/Testimonals/SideBar/UssdTestimonial";
+import B2bTestimonials from "../pages/ResourcesPage/Testimonals/SideBar/b2bTestimonials";
 const WebRoutes = [
   {
     title: "Home",
@@ -82,6 +83,16 @@ const WebRoutes = [
         title: "Airvend",
         path: "airvend-Testimonials",
         component: AirvendTestimonal,
+      },
+      {
+        title: "B2B",
+        path: "b2b-Testimonials",
+        component: B2bTestimonials,
+      },
+      {
+        title: "Ussd",
+        path: "ussd-Testimonials",
+        component: UssdTestimonial,
       },
     ],
   },
