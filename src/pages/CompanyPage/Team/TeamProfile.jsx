@@ -82,14 +82,11 @@ export const TeamProfile = () => {
         cover={
           <Spin spinning={false} size="large" className="spinner-container">
             <img
-              src="https://res.cloudinary.com/calllphone/image/upload/v1699540042/website%20Images/lanre_3x-removebg-preview_vnzghm.png"
+              src="https://res.cloudinary.com/calllphone/image/upload/v1700150781/website%20Images/Mr_Lanre_sudplp.jpg"
               alt="img"
               style={{
-                background: "#3D383D",
-                paddingTop: "30px",
-                paddingBottom: "120px",
-                paddingLeft: "10px",
-                paddingRight: "10px",
+                background: "#49363A",
+                paddingBottom: "40px",
               }}
             />
           </Spin>
