@@ -12,7 +12,7 @@ const AirgateHero = () => {
           <div className="lg:text-6xl text-4xl font-semibold lg:mt-20 py-5 leading-tight">
             <h2>Accept Payment from Anyone; Fast and Seamless</h2>
           </div>
-          <div>
+          <div className="flex flex-col items-center md:block">
             <p className="font-normal lg:w-full text-[#565555] tracking-wide leading-relaxed text-lg">
               Experience a new level of robust payment gateway with
               well-documented APIs structured to simplify the development

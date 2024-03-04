@@ -22,7 +22,7 @@ const UssdHero = () => {
               <span className=" text-[#4834d4]"> (*174#)</span>{" "}
             </h2>
           </div>
-          <div>
+          <div className="flex flex-col items-center md:block">
             <p className="font-normal pl-8 lg:w-full text-[#565555] tracking-wide leading-relaxed text-lg">
               Pay all bills, get recharge pins and print recharge vouchers that
               work on all networks using our unique USSD code (*174#).
@@ -35,8 +35,8 @@ const UssdHero = () => {
           animate={{ rotateY: 360 }} // Rotate 360 degrees (1 full rotation)
           transition={{
             duration: 10,
-            repeat: Infinity, 
-            ease: "easeOut", 
+            repeat: Infinity,
+            ease: "easeOut",
           }}
           className="lg:ml-20 pr-20 lg:py-5 scale-300"
         >
