@@ -27,10 +27,10 @@ const Hero = () => {
               your bills.
             </p>
           </div>
-          <div className="p-6 md:p-10  justify-between">
+          <div className="p-6 flex justify-center md:p-10  md:justify-between">
             <StoreDownload />
           </div>
-          <div>
+          <div className="flex justify-center md:block">
             <SignUpbtn />
           </div>
         </div>

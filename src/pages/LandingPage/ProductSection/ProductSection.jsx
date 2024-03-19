@@ -25,7 +25,7 @@ export const ProductSection = () => {
         <AirvendSec />
         <AirpaySec />
         <div className="order-last">
-        <AirgateSec  />
+          <AirgateSec />
         </div>
         <UssdSec />
       </div>

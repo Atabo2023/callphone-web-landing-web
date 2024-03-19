@@ -13,7 +13,7 @@ const AirvendTestimonal = () => {
       name: "Samson George",
       username: "@samson_George",
       description:
-        "As a Techly I particularly enjoy the user interface, it’s simple and very easy to navigate, and it’s a big plus for me that their transactions go through smoothly.",
+        "As a Techy I particularly enjoy the user interface, it’s simple and very easy to navigate, and it’s a big plus for me that their transactions go through smoothly.",
     },
     {
       name: "Bolaji Daniels",

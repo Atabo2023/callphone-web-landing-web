@@ -8,9 +8,7 @@ import { Contactbtn } from "../../../../components/Buttons/ContactBtn";
 const HeroPay = () => {
   return (
     <>
-      <div
-        className="bg-[#e5effd] p-5 mt-1 flex lg:flex-row flex-col"
-      >
+      <div className="bg-[#e5effd] p-5 mt-1 flex lg:flex-row flex-col">
         <div className="lg:w-3/5 lg:px-28">
           <div className="lg:text-6xl text-4xl font-bold lg:mt-10 w-full py-5 md:leading-relaxed">
             <h2>
@@ -29,7 +27,7 @@ const HeroPay = () => {
               get a POS terminal.
             </p>
           </div>
-          <div className="py-8  justify-between flex">
+          <div className="py-8 flex justify-center md:justify-between">
             <Contactbtn />
             {/* <WhatsappOutline/> */}
           </div>

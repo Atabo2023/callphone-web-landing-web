@@ -49,7 +49,7 @@ const LandingPage = () => {
                   </p>
                 </div>
 
-                <div className="p-10 md:pl-8 md:py-6 ">
+                <div className="p-10 md:pl-8 md:py-6 flex justify-center">
                   <Link to="/">
                     <button
                       className="rounded-md bg-indigo-600 hover:bg-indigo-700 text-white min-w-[200px] py-3 px-14 font-medium"
