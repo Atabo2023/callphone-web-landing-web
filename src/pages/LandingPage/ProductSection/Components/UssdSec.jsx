@@ -18,7 +18,7 @@ export const UssdSec = () => {
           internet service.
         </p>
         <div className="my-8 lg:flex hidden">
-          <Link to="/airvend">
+          <Link to="/UssdPage">
             <img src={Arrow} alt="icon" style={{ cursor: "pointer" }} />
           </Link>
         </div>

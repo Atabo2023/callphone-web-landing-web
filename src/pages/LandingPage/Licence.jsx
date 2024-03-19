@@ -10,7 +10,7 @@ import InterswitchIcon from "../../assets/icons/interswitch.svg";
 export const LicenceSection = () => {
   return (
     <div className="md:flex my-8 bg-[#e5effd] gap-5 hidden md:visible">
-      <div className="font-normal text-lg"> Trusted by: </div>
+      <div className="font-normal text-lg w-40"> Trusted by: </div>
       <div>
         <img src={CbnIcon} alt="icon" />
       </div>
@@ -32,7 +32,6 @@ export const LicenceSection = () => {
       <div className="lg:p-6 ">
         <img src={InterswitchIcon} alt="icon" />
       </div> */}
-      
     </div>
   );
 };

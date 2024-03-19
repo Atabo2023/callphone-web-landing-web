@@ -7,7 +7,7 @@ const AirpayTestimonial = () => {
       name: "Bimbo Adekunle",
       username: "@Bimboadekunle",
       description:
-        "I started POS business as a side huddle and now it’s my full time means of income. Thanks to Airpay and their favorable operation system. My customers trust my transactions to always work so they always come back.",
+        "I started POS business as a side hustle and now it’s my full time means of income. Thanks to Airpay and their favorable operation system. My customers trust my transactions to always work so they always come back.",
     },
     {
       name: "Ebere Okoye",
