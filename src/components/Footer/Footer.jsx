@@ -72,7 +72,7 @@ export const Footer = () => {
                 </a>
               </li>
               <li className="font-light py-2 text-[#565555]">
-                <a href="/blogs ">Blogs</a>
+                <a href="/blog">Blogs</a>
               </li>
             </ul>
             <ul>

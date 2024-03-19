@@ -5,6 +5,7 @@ import Airpay from "../pages/ProductPages/Airpay/AirpayProduct";
 import Airgate from "../pages/ProductPages/Airgate/AirgateProduct";
 import UssdPage from "../pages/ProductPages/Ussd/UssdPage";
 import CareersPage from "../pages/CompanyPage/Careers/CareersPage";
+import Blogs from "../pages/Blog/Blogs";
 import BlogPage from "../pages/Blog/BlogPage";
 import TestimonialsPage from "../pages/ResourcesPage/Testimonals/Testimonials";
 // import Viewall from "../pages/ResourcesPage/Testimonals/SideBar/Viewall";
@@ -55,8 +56,13 @@ const WebRoutes = [
     component: CareersPage,
   },
   {
-    title: "Blog",
+    title: "Blogs",
     path: "/blog",
+    component: Blogs,
+  },
+  {
+    title: "Blogs",
+    path: "/blog-page",
     component: BlogPage,
   },
   {
