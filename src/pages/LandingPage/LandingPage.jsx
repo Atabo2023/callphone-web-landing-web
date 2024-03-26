@@ -41,7 +41,7 @@ const LandingPage = () => {
                   </h1>
                 </div>
                 <div>
-                  <p className="font-normal lg:pl-8 p-5 md:w-full text-justify text-[#565555] tracking-normal leading-relaxed text-lg ">
+                  <p className="font-normal lg:pl-8 p-5 md:w-full text-[#565555] tracking-normal leading-relaxed text-lg ">
                     Secure and seamless transactions at all times. Enjoy 100%
                     availability and efficiency on the Airvend Mobile app,
                     Airgate Payment Gateway, *174# USSD code, and all POS
