@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../../assets/images/image.svg";
+import Image from "../../assets/images/hero_image.svg";
 import { Header } from "../../components/Header/Header";
 import { Footer } from "../../components/Footer/Footer";
 // import { ProductsBtn } from "../../components/Buttons/ProductsBtn";
@@ -70,7 +70,7 @@ const LandingPage = () => {
                 transition={{ ease: "easeIn", duration: 2 }}
                 className=" lg:p-2 lg:h-0 h-4/5"
               >
-                <div className="md:mt-24 md:ml-5">
+                <div>
                   <img src={Image} alt="img" />
                 </div>
               </motion.div>
