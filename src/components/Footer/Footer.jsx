@@ -115,8 +115,8 @@ export const Footer = () => {
             </ul>
           </div>
         </div>
-        <hr className="m-10 "></hr>
-        <div className="grid lg:grid-cols-2 gap-4 p-8 ">
+        <hr className="m-5"></hr>
+        <div className="grid lg:grid-cols-2 gap-4 px-4 pt-2">
           <div>
             <p className="pt-8 text-sm text-[#565555]">
               © {new Date().getFullYear()} Copyrights. Callphone LTD.
