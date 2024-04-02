@@ -9,8 +9,9 @@ import PssbIcon from "../../assets/icons/pssb.svg";
 // import GrandtowersIcon from "../../assets/icons/grandtowers.svg";
 export const LicenceSection = () => {
   return (
-    <div className="md:flex items-center my-8 bg-[#e5effd] hidden">
-      <div className="font-normal text-lg w-48">
+    // <div className="md:flex items-center my-8 bg-[#e5effd] hidden">
+    <div className="flex">
+      <div className="font-normal text-lg w-32">
         <p>Trusted by:</p>
       </div>
       <div className="flex space-x-5">
