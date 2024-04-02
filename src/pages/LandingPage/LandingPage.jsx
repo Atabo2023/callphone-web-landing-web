@@ -70,7 +70,7 @@ const LandingPage = () => {
                 transition={{ ease: "easeIn", duration: 2 }}
                 className=" lg:p-2 lg:h-0 h-4/5"
               >
-                <div>
+                <div className="md:mt-24 md:ml-5">
                   <img src={Image} alt="img" />
                 </div>
               </motion.div>
