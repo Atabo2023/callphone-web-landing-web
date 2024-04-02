@@ -30,7 +30,7 @@ const LandingPage = () => {
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ ease: "easeIn", duration: 1 }}
-                className="lg:w-1/2"
+                className="lg:w-1/2 "
               >
                 <div className="lg:text-6xl lg:text-left text-center text-4xl font-extrabold lg:mt-14 w-85 lg:p-8 p-3 ">
                   <h2 className="leading-tight">
@@ -40,16 +40,25 @@ const LandingPage = () => {
                     Everyone.
                   </h1>
                 </div>
-                <div>
+                <div className="flex flex-col">
                   <p className="font-normal lg:pl-8 p-5 md:w-full text-[#565555] tracking-normal leading-relaxed text-lg ">
                     Secure and seamless transactions at all times. Enjoy 100%
                     availability and efficiency on the Airvend Mobile app,
                     Airgate Payment Gateway, *174# USSD code, and all POS
                     terminals.
                   </p>
+
+                  <Link className=" pl-7" to="/">
+                    <button
+                      className="rounded-md bg-indigo-600 hover:bg-indigo-700 text-white min-w-[200px] py-3 px-14 font-medium"
+                      onClick={scrollToProductSection}
+                    >
+                      Products
+                    </button>
+                  </Link>
                 </div>
 
-                <div className="p-10 md:pl-8 md:py-6 flex justify-center">
+                {/* <div className="">
                   <Link to="/">
                     <button
                       className="rounded-md bg-indigo-600 hover:bg-indigo-700 text-white min-w-[200px] py-3 px-14 font-medium"
@@ -58,9 +67,10 @@ const LandingPage = () => {
                       Products
                     </button>
                   </Link>
-                  <div className="lg:mt-20">
-                    <LicenceSection />
-                  </div>
+                </div> */}
+
+                <div className=" hidden md:block lg:mt-20 ml-7">
+                  <LicenceSection />
                 </div>
               </motion.div>
               <motion.div
@@ -70,7 +80,7 @@ const LandingPage = () => {
                 transition={{ ease: "easeIn", duration: 2 }}
                 className=" lg:p-2 lg:h-0 h-4/5"
               >
-                <div className="md:mt-24 md:ml-5">
+                <div className=" md:mt-12 md:ml-5">
                   <img src={Image} alt="img" />
                 </div>
               </motion.div>
