@@ -13,6 +13,7 @@ import psbIcon from "../../assets/icons/PartnersIcon/psb.svg";
 import szztIcon from "../../assets/icons/PartnersIcon/szzt.svg";
 import unionIcon from "../../assets/icons/PartnersIcon/unionbank.svg";
 import standardIcon from "../../assets/icons/PartnersIcon/standardbank.svg";
+import providusIcon from "../../assets/icons/PartnersIcon/providusIcon.svg"
 
 export const PartnerSec = () => {
   return (
@@ -28,7 +29,7 @@ export const PartnerSec = () => {
         </p>
       </div>
       <div className="grid md:grid-cols-5 grid-cols-3 gap-6 px-6 lg:px-20 py-14 items-center md:ml-10 justify-center">
-        <div className="p-5">
+        <div>
           <img src={grandTIcon} alt="icon" />
         </div>
         <div>
@@ -43,7 +44,7 @@ export const PartnerSec = () => {
         <div>
           <img src={gloIcon} alt="icon" />
         </div>
-        <div className="p-5">
+        <div>
           <img src={zenithIcon} alt="icon" />
         </div>
         <div className="img-[#0a1f44]">
@@ -59,7 +60,7 @@ export const PartnerSec = () => {
           <img src={firstIcon} alt="icon" />
         </div>
         <div>
-          <img src={psbIcon} alt="icon" />
+          <img  src={psbIcon} alt="icon" />
         </div>
         <div>
           <img src={szztIcon} alt="icon" />
@@ -69,6 +70,9 @@ export const PartnerSec = () => {
         </div>
         <div>
           <img src={standardIcon} alt="icon" />
+        </div>
+        <div>
+          <img src={providusIcon} alt="icon" />
         </div>
       </div>
     </>
