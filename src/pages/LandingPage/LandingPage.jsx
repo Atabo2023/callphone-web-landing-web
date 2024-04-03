@@ -78,7 +78,6 @@ const LandingPage = () => {
           </div>
           <ProductSection />
           <TestimonialSection />
-
           <PartnerSec />
           <ContactSec />
         </div>
