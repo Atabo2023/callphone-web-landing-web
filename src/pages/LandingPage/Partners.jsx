@@ -13,16 +13,16 @@ import psbIcon from "../../assets/icons/PartnersIcon/psb.svg";
 import szztIcon from "../../assets/icons/PartnersIcon/szzt.svg";
 import unionIcon from "../../assets/icons/PartnersIcon/unionbank.svg";
 import standardIcon from "../../assets/icons/PartnersIcon/standardbank.svg";
-import providusIcon from "../../assets/icons/PartnersIcon/providusIcon.svg"
+import providusIcon from "../../assets/icons/PartnersIcon/providusIcon.svg";
 
 export const PartnerSec = () => {
   return (
     <>
       <div className="grid justify-items-center ">
-        <p className="text-5xl font-semibold text-center px-20 pt-20">
+        <p className="text-2xl md:text-5xl font-semibold text-center px-20 pt-20">
           Our <span className="text-[#4834d4]">Partners</span>{" "}
         </p>
-        <p className="text-xl font-light text-center py-10 px-5 md:w-1/2 w-full text-[#565555] tracking-wide leading-relaxed">
+        <p className="text-base md:text-xl font-light text-center py-10 px-5 md:w-1/2 w-full text-[#565555] tracking-wide leading-relaxed">
           Callphone is keen in providing our clients and customers with the best
           options readily available in the FinTech industry to guarantee
           effectiveness and efficiency in operation
@@ -60,7 +60,7 @@ export const PartnerSec = () => {
           <img src={firstIcon} alt="first bank" />
         </div>
         <div>
-          <img  src={psbIcon} alt="psb" />
+          <img src={psbIcon} alt="psb" />
         </div>
         <div>
           <img src={szztIcon} alt="szzt" />
