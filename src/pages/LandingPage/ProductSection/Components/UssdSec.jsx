@@ -20,7 +20,7 @@ export const UssdSec = () => {
           </Link>
         </div>
         <div className="hidden md:flex md:justify-end">
-          <img src={PhoneImg01} alt="img" className=" w-16" />
+          <img src={PhoneImg01} alt="Callphone USSD code" className=" w-16" />
         </div>
       </div>
     </>

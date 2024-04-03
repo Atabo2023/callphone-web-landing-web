@@ -22,7 +22,7 @@ export const AirpaySec = () => {
         <div className="hidden md:flex md:justify-end">
           <img
             src={image01}
-            alt="img"
+            alt="Callphone POS terminal"
             className=" lg:p-0 p-10 scale-125 lg:ml-80 w-24"
           />
         </div>
