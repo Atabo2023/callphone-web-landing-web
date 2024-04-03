@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Arrow from "../../../../assets/icons/miniIcon/arrow.svg";
 import image01 from "../../../../assets/icons/miniIcon/airgatedesk.svg";
+import { scrollToTop } from "../../../../utils";
 
 export const AirgateSec = () => {
   return (
@@ -13,7 +14,11 @@ export const AirgateSec = () => {
           APIs structured to simplify the development process.
         </p>
         <div className="mt-11 md:my-8 lg:flex">
-          <Link className="flex items-center space-x-2" to="/airgate">
+          <Link
+            className="flex items-center space-x-2"
+            to="/airgate"
+            onClick={scrollToTop}
+          >
             <p className="text-sm">Learn more</p>
             <img src={Arrow} alt="icon" style={{ cursor: "pointer" }} />
           </Link>

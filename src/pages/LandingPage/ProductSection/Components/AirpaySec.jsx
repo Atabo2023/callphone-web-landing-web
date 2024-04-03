@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Arrow from "../../../../assets/icons/miniIcon/arrow.svg";
 import image01 from "../../../../assets/icons/miniIcon/airpaypos.svg";
+import { scrollToTop } from "../../../../utils";
 
 export const AirpaySec = () => {
   return (
@@ -14,7 +15,11 @@ export const AirpaySec = () => {
           customers will pay however they want.
         </p>
         <div className="mt-14 md:my-8 lg:flex">
-          <Link className="flex items-center space-x-2" to="/airpay">
+          <Link
+            className="flex items-center space-x-2"
+            to="/airpay"
+            onClick={scrollToTop}
+          >
             <p className="text-sm">Learn more</p>
             <img src={Arrow} alt="icon" style={{ cursor: "pointer" }} />
           </Link>

@@ -4,6 +4,7 @@ import Arrow from "../../../../assets/icons/miniIcon/arrow2.svg";
 import PhoneImg01 from "../../../../assets/icons/miniIcon/ussdphone.svg";
 
 import { Link } from "react-router-dom";
+import { scrollToTop } from "../../../../utils";
 export const UssdSec = () => {
   return (
     <>
@@ -14,7 +15,11 @@ export const UssdSec = () => {
           to make transfers and pay bills online without the internet.
         </p>
         <div className="mt-11 md:my-8 lg:flex">
-          <Link className="flex items-center space-x-2" to="/UssdPage">
+          <Link
+            className="flex items-center space-x-2"
+            to="/UssdPage"
+            onClick={scrollToTop}
+          >
             <p className="text-white text-sm">Learn more</p>
             <img src={Arrow} alt="icon" style={{ cursor: "pointer" }} />
           </Link>

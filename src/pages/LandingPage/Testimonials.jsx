@@ -2,14 +2,9 @@ import React from "react";
 import { UserOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
 import Arrow from "../../assets/icons/miniIcon/arrow3.svg";
+import { scrollToTop } from "../../utils";
 
 export const TestimonialSection = () => {
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-    });
-  };
-
   const data = [
     {
       review:
