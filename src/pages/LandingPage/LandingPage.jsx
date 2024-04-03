@@ -5,6 +5,7 @@ import { Footer } from "../../components/Footer/Footer";
 import { motion } from "framer-motion";
 import { LicenceSection } from "./Licence";
 import { ProductSection } from "./ProductSection/ProductSection";
+import { TestimonialSection } from "./Testimonials";
 import { PartnerSec } from "./Partners";
 import { ContactSec } from "./ContactSec";
 import { Link } from "react-router-dom";
@@ -32,13 +33,13 @@ const LandingPage = () => {
                   <h2 className="leading-tight">
                     Digital Payment <br></br>Simplifed For
                   </h2>
-                  <h1 className="underline leading-tight  text-[#4834d4]">
+                  <h1 className="underline leading-tight  text-[#4834d4] font-light">
                     Everyone.
                   </h1>
                 </div>
                 <div className="flex flex-col items-center md:items-start md:pl-8">
                   <div>
-                    <p className="font-normal text-justify p-5 md:p-0 text-[#565555] tracking-normal leading-relaxed text-lg">
+                    <p className="font-normal text-center md:text-justify p-5 md:p-0 text-[#565555] tracking-normal leading-relaxed text-lg">
                       Secure and seamless transactions at all times. Enjoy 100%
                       availability and efficiency on the Airvend Mobile app,
                       Airgate Payment Gateway, *174# USSD code, and all POS
@@ -76,6 +77,8 @@ const LandingPage = () => {
             </div>
           </div>
           <ProductSection />
+          <TestimonialSection />
+
           <PartnerSec />
           <ContactSec />
         </div>
