@@ -16,7 +16,11 @@ const AirvendSec = () => {
       <div className="mt-11 md:my-8 lg:flex">
         <Link className="flex items-center space-x-2" to="/airvend">
           <p className="text-white text-sm">Learn more</p>
-          <img src={Arrow} alt="icon" style={{ cursor: "pointer" }} />
+          <img
+            src={Arrow}
+            alt="Airtime and Mobile top up"
+            style={{ cursor: "pointer" }}
+          />
         </Link>
       </div>
       <div className="hidden md:flex md:justify-end">
