@@ -10,7 +10,7 @@ import PssbIcon from "../../assets/icons/pssb.svg";
 export const LicenceSection = () => {
   return (
     // <div className="md:flex items-center my-8 bg-[#e5effd] hidden">
-    <div className="flex">
+    <div className="flex items-center">
       <div className="font-normal text-lg w-32">
         <p>Trusted by:</p>
       </div>
