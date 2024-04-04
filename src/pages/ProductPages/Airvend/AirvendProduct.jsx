@@ -30,9 +30,9 @@ const Airvend = () => {
           </p>
           <p className="font-normal py-10 text-center text-[#565555] tracking-wide leading-relaxed text-lg">
             Ensures a convenient and accessible means for users to fund their
-            wallets instantly,  <br></br> by providing diverse options for quickly
-            replenishing their digital wallets.  <br></br> Whether through bank
-            transfers, debit cards or via your airvend Wallet.
+            wallets instantly, <br></br> by providing diverse options for
+            quickly replenishing their digital wallets. <br></br> Whether
+            through bank transfers, debit cards or via your airvend Wallet.
           </p>
         </div>
       </div>
