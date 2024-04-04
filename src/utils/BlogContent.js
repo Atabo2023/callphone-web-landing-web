@@ -3,6 +3,7 @@ import articleTwo from "../assets/images/article2.svg";
 
 export const content = [
   {
+    author: "Purity Udeh",
     category: "News",
     header: "We’ve got a new look: Better Callphone. Same passion",
     body: [
@@ -43,6 +44,7 @@ export const content = [
     image: articleOne,
   },
   {
+    author: "Purity Udeh",
     category: "Airvend",
     header: "How to upgrade your account: A Guide to adding your BVN And NIN",
     body: [
