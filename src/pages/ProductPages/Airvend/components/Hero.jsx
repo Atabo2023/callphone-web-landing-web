@@ -15,12 +15,15 @@ const Hero = () => {
       >
         <div className="lg:w-1/2 lg:px-24 px-2">
           <div className="lg:text-6xl text-4xl font-bold lg:mt-20 w-full p-8">
-            <h2>
-              One <span className=" text-[#4834d4]">App</span> For All Bills
+            <h2 className="flex flex-col items-center md:items-start">
+              <span>
+                One <span className=" text-[#4834d4]">App</span> For
+              </span>
+              <span>All Bills</span>
             </h2>
           </div>
           <div>
-            <p className="font-normal lg:pl-8 p-5 lg:w-full text-[#565555] text-justify tracking-normal leading-relaxed text-lg">
+            <p className="font-normal md:pl-9 lg:w-full text-[#565555] text-center md:text-start tracking-normal leading-relaxed text-lg">
               Spending your hard-earned money shouldn’t be stressful. Enjoy 100%
               cashless, fast and affordable transactions. One secure solution
               for all your online bill payments. You don’t need 1000 apps to pay
