@@ -38,7 +38,7 @@ export const AboutBody = () => {
         <div className="lg:p-5 mt-20 lg:mx-5 w-full  px-5 ">
           <img src={image11} alt="img" />
         </div>
-        <div className=" w-full lg:p-5 p-3 text-justify ">
+        <div className=" w-full lg:p-5 p-3 text-justify mt-10">
           <div className="font-normal  py-4 text-[#000000] tracking-wide leading-relaxed text-lg">
             <p className="text-4xl md:py-5 font-semibold">Our Vision</p>
             <p className=" w-full">
