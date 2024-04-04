@@ -5,6 +5,7 @@ import bgImage from "../../assets/images/BgImages/bgImage1.svg";
 import { createSearchParams, useNavigate } from "react-router-dom";
 import { content } from "../../utils/BlogContent";
 import { UserOutlined } from "@ant-design/icons";
+// import authorImage from "../../assets/images/author.svg";
 
 const Blogs = () => {
   const navigate = useNavigate();
@@ -30,6 +31,7 @@ const Blogs = () => {
                     pathname: "/blog-page",
                     search: createSearchParams({
                       author: item.author,
+                      authorImage: item.authorImage,
                       article: item.header,
                       header: item.header,
                       body: JSON.stringify(item.body),
@@ -60,7 +62,8 @@ const Blogs = () => {
                 </h1>
                 <div className="flex items-center space-x-2 mb-2">
                   <div className="flex justify-center rounded-full bg-gray-300 h-6 w-6">
-                    <UserOutlined className="text-sm" />
+                    {/* <UserOutlined className="text-sm" /> */}
+                    <img src={item.authorImage} />
                   </div>
 
                   <div>
