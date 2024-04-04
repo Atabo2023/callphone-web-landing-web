@@ -33,7 +33,7 @@ export const Header = () => {
 
   return (
     <nav>
-      <div className="flex justify-between lg:px-28 px-5 py-5 shadow-lg shadow-[#cce1fa] bg-white z-20 sticky h-20 w-full mt-0">
+      <div className="flex justify-between lg:px-28 px-5 py-5 shadow shadow-[#cce1fa] bg-white z-20 sticky h-20 w-full mt-0">
         <Link to="/">
           <img src={logo} alt="logo" />
         </Link>

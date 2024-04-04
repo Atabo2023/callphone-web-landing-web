@@ -8,6 +8,7 @@ const BlogPage = () => {
   const [searchParams] = useSearchParams();
 
   const author = searchParams.get("author");
+  const authorImage = searchParams.get("authorImage");
   const header = searchParams.get("header");
   const body = JSON.parse(searchParams.get("body"));
   const image = searchParams.get("image");
@@ -27,7 +28,8 @@ const BlogPage = () => {
           <div className="w-full flex border-y py-5 my-5">
             <div className="flex space-x-3 ">
               <div className="flex justify-center rounded-full bg-gray-300 h-8 w-8 md:h-10 md:w-10">
-                <UserOutlined className=" text-lg md:text-2xl" />
+                {/* <UserOutlined className=" text-lg md:text-2xl" /> */}
+                <img src={authorImage} />
               </div>
 
               <div className=" space-y-1">

@@ -1,10 +1,12 @@
 import articleOne from "../assets/images/article1.svg";
 import articleTwo from "../assets/images/article2.svg";
 import articleThree from "../assets/images/article3.svg";
+import authorImage from "../assets/images/author.svg";
 
 export const content = [
   {
     author: "Purity Udeh",
+    authorImage: authorImage,
     category: "News",
     header: "We’ve got a new look: Better Callphone. Same passion",
     body: [
@@ -46,6 +48,7 @@ export const content = [
   },
   {
     author: "Purity Udeh",
+    authorImage: authorImage,
     category: "Airvend",
     header: "How to upgrade your account: A Guide to adding your BVN And NIN",
     body: [
@@ -104,6 +107,7 @@ export const content = [
   },
   {
     author: "Purity Udeh",
+    authorImage: authorImage,
     category: "Airvend",
     header:
       "The Evolution of Payment Technology: From Coins to Contactless Payment",
