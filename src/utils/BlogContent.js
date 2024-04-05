@@ -143,8 +143,7 @@ export const content = [
         ],
       },
     ],
-    snippet:
-      "When it comes to Airvend, ensuring our users have the best possible options...",
+    snippet: "In the story of money, things have changed a lot...",
     date: "February 28, 2024",
     readTime: 5,
     image: articleThree,
