@@ -16,10 +16,15 @@ const Images = () => {
           "https://res.cloudinary.com/calllphone/image/upload/v1698672727/website%20Images/_DSC9824_bmlofu.jpg",
           "https://res.cloudinary.com/calllphone/image/upload/v1698672722/website%20Images/_DSC9851_ijjsgl.jpg",
           "https://res.cloudinary.com/calllphone/image/upload/v1698672710/website%20Images/_DSC9874_m4hpms.jpg",
-          "https://res.cloudinary.com/calllphone/image/upload/v1698673177/website%20Images/_DSC9821_syqvk2.jpg",
-          "https://res.cloudinary.com/calllphone/image/upload/v1698179988/website%20Images/WhatsApp_Image_2023-09-20_at_19.14.03_gqbluu.jpg",
+          // "https://res.cloudinary.com/calllphone/image/upload/v1698673177/website%20Images/_DSC9821_syqvk2.jpg",
+          // "https://res.cloudinary.com/calllphone/image/upload/v1698179988/website%20Images/WhatsApp_Image_2023-09-20_at_19.14.03_gqbluu.jpg",
         ].map((imageSrc, index) => (
-          <Spin key={index} spinning={false} size="large" className="spinner-container">
+          <Spin
+            key={index}
+            spinning={false}
+            size="large"
+            className="spinner-container"
+          >
             <Image
               key={index}
               src={imageSrc}

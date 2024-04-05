@@ -4,6 +4,8 @@ import { Footer } from "../../components/Footer/Footer";
 import bgImage from "../../assets/images/BgImages/bgImage1.svg";
 import { createSearchParams, useNavigate } from "react-router-dom";
 import { content } from "../../utils/BlogContent";
+import { UserOutlined } from "@ant-design/icons";
+// import authorImage from "../../assets/images/author.svg";
 
 const Blogs = () => {
   const navigate = useNavigate();
@@ -28,6 +30,8 @@ const Blogs = () => {
                   {
                     pathname: "/blog-page",
                     search: createSearchParams({
+                      author: item.author,
+                      authorImage: item.authorImage,
                       article: item.header,
                       header: item.header,
                       body: JSON.stringify(item.body),
@@ -53,13 +57,23 @@ const Blogs = () => {
                 <div className="flex justify-center items-center text-white text-xs bg-[#5A6DED] w-24 h-6 rounded my-5">
                   <p>{item.category}</p>
                 </div>
-                <h1 className="text-2xl md:text-4xl mb-10 w-80 md:w-[550px]">
+                <h1 className="text-2xl md:text-4xl mb-3 w-80 md:w-[550px]">
                   {item.header}
                 </h1>
-                <p className="mb-4 text-[#565555] w-80 md:w-[600px]">
+                <div className="flex items-center space-x-2 mb-2">
+                  <div className="flex justify-center rounded-full bg-gray-300 h-6 w-6">
+                    {/* <UserOutlined className="text-sm" /> */}
+                    <img src={item.authorImage} />
+                  </div>
+
+                  <div>
+                    <p className="text-xs font-semibold">{item.author}</p>
+                  </div>
+                </div>
+                <p className="mb-2 text-[#565555] w-80 md:w-[600px]">
                   {item.snippet}
                 </p>
-                <div className="flex text-gray-500">
+                <div className="flex text-gray-400 text-sm font-light">
                   {`March 18, 2024 . 5 min read`}
                 </div>
               </div>

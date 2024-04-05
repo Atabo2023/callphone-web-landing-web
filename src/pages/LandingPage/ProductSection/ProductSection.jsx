@@ -13,20 +13,21 @@ export const ProductSection = () => {
         whileInView={{ opacity: 1 }}
         transition={{ ease: "easeIn", duration: 1 }}
         id="scrollProduct"
-        className="lg:text-4xl text-2xl font-extrabold text-center lg:p-10 p-10 leading-loose"
+        className="lg:text-4xl text-2xl font-extrabold text-center lg:p-10 p-10 leading-loose flex flex-col items-center"
       >
-        Payment <span className="text-[#4834d4]">Solutions</span> for
-        Individuals,
-        <br />
-        Developers, MSMEs, and Organizations
+        <h1>
+          Our <span className="text-[#4834d4]">Services</span>
+        </h1>
+        <p className="text-base md:text-xl font-light text-center py-5 md:py-10 px-5 md:w-1/2 w-full text-[#565555] tracking-wide leading-relaxed">
+          We Offer Payment Solutions for Individuals, Developers, MSMEs, and
+          Organizations.
+        </p>
       </motion.div>
       {/* <div className="lg:px-24 lg:py-10 flex flex-wrap"> */}
       <div className="lg:px-28 h-1/2 lg:py-10 lg:grid grid-cols-2 ">
         <AirvendSec />
         <AirpaySec />
-        <div className="order-last">
-          <AirgateSec />
-        </div>
+        <AirgateSec />
         <UssdSec />
       </div>
     </>

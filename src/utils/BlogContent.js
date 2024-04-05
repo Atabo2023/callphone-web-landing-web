@@ -1,8 +1,12 @@
 import articleOne from "../assets/images/article1.svg";
 import articleTwo from "../assets/images/article2.svg";
+import articleThree from "../assets/images/article3.svg";
+import authorImage from "../assets/images/author.svg";
 
 export const content = [
   {
+    author: "Purity Udeh",
+    authorImage: authorImage,
     category: "News",
     header: "We’ve got a new look: Better Callphone. Same passion",
     body: [
@@ -43,6 +47,8 @@ export const content = [
     image: articleOne,
   },
   {
+    author: "Purity Udeh",
+    authorImage: authorImage,
     category: "Airvend",
     header: "How to upgrade your account: A Guide to adding your BVN And NIN",
     body: [
@@ -98,5 +104,49 @@ export const content = [
     date: "February 28, 2024",
     readTime: 5,
     image: articleTwo,
+  },
+  {
+    author: "Purity Udeh",
+    authorImage: authorImage,
+    category: "Airvend",
+    header:
+      "The Evolution of Payment Technology: From Coins to Contactless Payment",
+    body: [
+      {
+        title: "",
+        content: [
+          "In the story of money, things have changed a lot over time. First, people traded goods for other goods, which we call trade by barter. You simply trade what you have to get what you don’t have. It happens to be one of the most innovative ideas of that age, but now it's a thing of history, and it really suits our forefathers.",
+          "Then, we started using cowries, coins, and paper money. And the truth is that we didn’t even care how much longer we stayed in the queue to make transactions; as long as the business of the day was done and as long as we could send money to our family and friends, we were perfectly fine with it. If the right word is on my lips, I would say it’s the metro booming and biggest king of the boys of our time. Cash made buying things quicker and more straightforward.",
+          "Later on, credit cards came along and made paying for stuff easier. Imagine being in a situation where you are out of cash and you don’t want to go the normal route of having to queue at the bank to get money, or in a situation where you want to comfortably pay for something without having cash. Now imagine you had a card that you could slip through to make payments through a payment gateway. That’s why Callphone product like Airgate comes into play, playing a major part in making things easier for every user.",
+          "There are better and newer ways to pay that make things even simpler. Let's take a closer look at what contactless payment is, its evolution, how Callphone made a big difference, and why tapping to pay is the new normal.",
+        ],
+      },
+      {
+        title: "What is contactless payment?",
+        content: [
+          "Like the term “contactless,” it requires no physical contact—just tapping or swapping your card or mobile phone with a card reader, in its simplest terms. ",
+          "Contactless payment is a method of transaction where the payment instrument, such as a credit card or smartphone, is simply tapped near a payment terminal to complete a purchase. This process uses Near Field Communication (NFC) or Radio Frequency Identification (RFID) to securely transmit payment information between the card or device and the terminal without the need for physical contact. Your card or phone in use is like special technology that talks to the payment machine. It's quick and easy.",
+          "And above all that, contactless payments offer convenience, speed, and enhanced security, making them increasingly popular among consumers and businesses alike.",
+        ],
+      },
+      {
+        title: "Ensuring Contactless Security",
+        content: [
+          "Now, you might be wondering: Is it safe to use contactless payments? The answer is yes! Contactless payments are just as secure as traditional card transactions, if not more so. That's because contactless payments use advanced encryption and tokenization technology to protect your payment information. Plus, with features like fingerprint authentication and biometric security, you can rest assured that your payments are safe and secure.",
+          "With all this digital stuff, keeping your money safe is really important. That's where every Callphone’s products  comes in. They use special technology to make sure your payment information stays secure.",
+        ],
+      },
+      {
+        title: "How Can CallPhone Help?",
+        content: [
+          "As payment technology is constantly evolving, from good exchange to coin to cash, to tapping, paying for things has come a long way, so there is a need for a company to cater for different needs and preferences, and this is one way by which Callphone comes out strong to make it easier for every user to buy stuff without cash by using our payment gateway platform (Airgate)  as well as paying utility bills by using Airvend. Trend is pretty obvious and is a continuous process walking its way into the horizon.",
+        ],
+      },
+    ],
+    snippet:
+      "When it comes to Airvend, ensuring our users have the best possible options...",
+    date: "February 28, 2024",
+    readTime: 5,
+    image: articleThree,
   },
 ];

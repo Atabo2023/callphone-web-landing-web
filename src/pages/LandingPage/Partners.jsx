@@ -13,62 +13,66 @@ import psbIcon from "../../assets/icons/PartnersIcon/psb.svg";
 import szztIcon from "../../assets/icons/PartnersIcon/szzt.svg";
 import unionIcon from "../../assets/icons/PartnersIcon/unionbank.svg";
 import standardIcon from "../../assets/icons/PartnersIcon/standardbank.svg";
+import providusIcon from "../../assets/icons/PartnersIcon/providusIcon.svg";
 
 export const PartnerSec = () => {
   return (
     <>
       <div className="grid justify-items-center ">
-        <p className="text-5xl font-semibold text-center px-20 pt-20">
+        <p className="text-2xl md:text-5xl font-semibold text-center px-20 pt-20">
           Our <span className="text-[#4834d4]">Partners</span>{" "}
         </p>
-        <p className="text-xl font-light text-center py-10 px-5 md:w-1/2 w-full text-[#565555] tracking-wide leading-relaxed">
+        <p className="text-base md:text-xl font-light text-center py-10 px-5 md:w-1/2 w-full text-[#565555] tracking-wide leading-relaxed">
           Callphone is keen in providing our clients and customers with the best
           options readily available in the FinTech industry to guarantee
           effectiveness and efficiency in operation
         </p>
       </div>
       <div className="grid md:grid-cols-5 grid-cols-3 gap-6 px-6 lg:px-20 py-14 items-center md:ml-10 justify-center">
-        <div className="p-5">
-          <img src={grandTIcon} alt="icon" />
+        <div>
+          <img src={grandTIcon} alt="grand towers" />
         </div>
         <div>
-          <img src={MtnIcon} alt="icon" />
+          <img src={MtnIcon} alt="mtn" />
         </div>
         <div>
-          <img src={mobileIcon} alt="icon" />
+          <img src={mobileIcon} alt="9mobile" />
         </div>
         <div>
-          <img src={gtbankIcon} alt="icon" />
+          <img src={gtbankIcon} alt="gtb" />
         </div>
         <div>
-          <img src={gloIcon} alt="icon" />
+          <img src={gloIcon} alt="glo" />
         </div>
-        <div className="p-5">
-          <img src={zenithIcon} alt="icon" />
+        <div>
+          <img src={zenithIcon} alt="zenith" />
         </div>
         <div className="img-[#0a1f44]">
-          <img src={nibbsIcon} alt="icon" />
+          <img src={nibbsIcon} alt="Nibbs" />
         </div>
         <div>
-          <img src={aelexIcon} alt="icon" />
+          <img src={aelexIcon} alt="aelex" />
         </div>
         <div>
-          <img src={airtelIcon} alt="icon" />
+          <img src={airtelIcon} alt="airtel" />
         </div>
         <div>
-          <img src={firstIcon} alt="icon" />
+          <img src={firstIcon} alt="first bank" />
         </div>
         <div>
-          <img src={psbIcon} alt="icon" />
+          <img src={psbIcon} alt="psb" />
         </div>
         <div>
-          <img src={szztIcon} alt="icon" />
+          <img src={szztIcon} alt="szzt" />
         </div>
         <div>
-          <img src={unionIcon} alt="icon" />
+          <img src={unionIcon} alt="union bank" />
         </div>
         <div>
-          <img src={standardIcon} alt="icon" />
+          <img src={standardIcon} alt="standard bank" />
+        </div>
+        <div>
+          <img src={providusIcon} alt="providus bank" />
         </div>
       </div>
     </>

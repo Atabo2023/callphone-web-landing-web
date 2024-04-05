@@ -42,25 +42,27 @@ export const Footer = () => {
             <ul>
               <h2 className="font-bold py-2">Company</h2>
               <li className="font-light py-2 text-[#565555]">
-                <a href="/about ">About</a>
+                <Link to="/about">About</Link>
               </li>
               <li className="font-light py-2 text-[#565555]">
-                <a href="/team ">Team</a>
+                <Link to="/team">Team</Link>
               </li>
               <li className="font-light py-2 text-[#565555]">
-                <a href="/gallery ">Gallery</a>
+                <Link to="/gallery">Gallery</Link>
               </li>
               <li className="font-light py-2 text-[#565555]">
-                <a href="/career ">Careers</a>
+                <Link to="/career">Careers</Link>
               </li>
             </ul>
             <ul>
               <h2 className="font-bold py-2">Resources</h2>
               <li className="font-light py-2 text-[#565555]">
-                <a href="/news ">News</a>
+                <Link to="/news">News</Link>
               </li>
               <li className="font-light py-2 text-[#565555]">
-                <a href="/testimonials/viewall-Testimonials">Testimonials</a>
+                <Link to="/testimonials/viewall-Testimonials">
+                  Testimonials
+                </Link>
               </li>
               <li className="font-light py-2 text-[#565555]">
                 <a
@@ -72,7 +74,7 @@ export const Footer = () => {
                 </a>
               </li>
               <li className="font-light py-2 text-[#565555]">
-                <a href="/blog">Blogs</a>
+                <Link to="/blog">Blogs</Link>
               </li>
             </ul>
             <ul>
@@ -113,8 +115,8 @@ export const Footer = () => {
             </ul>
           </div>
         </div>
-        <hr className="m-10 "></hr>
-        <div className="grid lg:grid-cols-2 gap-4 p-8 ">
+        <hr className="m-5"></hr>
+        <div className="grid lg:grid-cols-2 gap-4 px-4 pt-2">
           <div>
             <p className="pt-8 text-sm text-[#565555]">
               © {new Date().getFullYear()} Copyrights. Callphone LTD.
