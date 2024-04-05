@@ -3,6 +3,9 @@ import { UserOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
 import Arrow from "../../assets/icons/miniIcon/arrow3.svg";
 import { scrollToTop } from "../../utils";
+import ebereImage from "../../assets/images/ebere.svg";
+import miracleImage from "../../assets/images/miracle.svg";
+import adaobiImage from "../../assets/images/adaobi.svg";
 
 export const TestimonialSection = () => {
   const data = [
@@ -11,18 +14,21 @@ export const TestimonialSection = () => {
         "I use Airvend POS to collect payment at my business. It’s very efficient",
       name: "Ebere Okoye",
       handle: "@Ebere_Okoye",
+      clientImage: ebereImage,
     },
     {
       review:
         "When my Phone is dead, I'm not worried about payments cause my ussd is always available",
       name: "Miracle Andy",
       handle: "@Miracle",
+      clientImage: miracleImage,
     },
     {
       review:
         "I really enjoy the app, I’m finally able to make different types of bills payment from one place.",
       name: "Adaobi Ogechi",
       handle: "@adaobiOgechi",
+      clientImage: adaobiImage,
     },
   ];
 
@@ -43,7 +49,8 @@ export const TestimonialSection = () => {
             className="w-80 h-80 bg-white border rounded-xl p-8 flex flex-col items-center"
           >
             <div className="flex justify-center rounded-full bg-gray-300 mb-5 h-10 w-10">
-              <UserOutlined className="text-2xl" />
+              {/* <UserOutlined className="text-2xl" /> */}
+              <img src={item.clientImage} />
             </div>
 
             <p className="text-center mx-auto max-w-sm">{item.review}</p>
