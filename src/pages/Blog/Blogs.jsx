@@ -54,9 +54,16 @@ const Blogs = () => {
               className="flex flex-col-reverse md:flex-row gap-x-52 mb-20 cursor-pointer"
             >
               <div>
-                <div className="flex justify-center items-center text-white text-xs bg-[#5A6DED] w-24 h-6 rounded my-5">
-                  <p>{item.category}</p>
-                </div>
+                {item.category === "Airvend" ? (
+                  <div className="flex justify-center items-center text-white text-xs bg-[#5A6DED] w-24 h-6 rounded my-5">
+                    <p>{item.category}</p>
+                  </div>
+                ) : (
+                  <div className="flex justify-center items-center text-white text-xs bg-[#2B1D8A] w-24 h-6 rounded my-5">
+                    <p>{item.category}</p>
+                  </div>
+                )}
+
                 <h1 className="text-2xl md:text-4xl mb-3 w-80 md:w-[550px]">
                   {item.header}
                 </h1>
