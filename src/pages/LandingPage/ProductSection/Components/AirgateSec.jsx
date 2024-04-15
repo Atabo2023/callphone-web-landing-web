@@ -8,12 +8,12 @@ export const AirgateSec = () => {
   return (
     <>
       <div className="box-border p-10 border border-transparent rounded-3xl bg-[#e5effd] m-5  h-80 md:h-[480px]">
-        <p className="text-4xl font-bold  py-5">Airgate</p>
+        <p className="text-4xl font-bold  py-3">Airgate</p>
         <p className="text-base font-light w-full text-[#565555] tracking-wide leading-relaxed h-24">
           Experience a new level of robust payment gateway with well-documented
           APIs structured to simplify the development process.
         </p>
-        <div className="mt-11 md:my-8 lg:flex">
+        <div className="mt-9 lg:flex">
           <Link
             className="flex items-center space-x-2"
             to="/airgate"
@@ -27,7 +27,7 @@ export const AirgateSec = () => {
           <img
             src={image01}
             alt="Payment gateway"
-            className="lg:p-0 p-10 scale-125 lg:ml-60 w-44"
+            className="lg:p-0 p-10 scale-125 lg:ml-60 w-60"
           />
         </div>
       </div>
