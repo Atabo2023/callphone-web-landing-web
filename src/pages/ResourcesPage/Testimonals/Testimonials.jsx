@@ -63,7 +63,7 @@ const Testimonials = () => {
             </div>
           ))}
         </div>
-        <div className="md:w-4/5 w-full bg-gray-50 pt-10 lg:p-10 ">
+        <div className="flex justify-center md:w-4/5 w-full bg-gray-50 pt-10 lg:p-10 ">
           <Outlet />
         </div>
       </div>

@@ -137,7 +137,9 @@ export const Header = () => {
                           <Link to="/news">News</Link>
                         </li>
                         <li className="px-6 py-3 hover:bg-indigo-700">
-                          <Link to="/testimonials">Testimonials</Link>
+                          <Link to="/testimonials/viewall-Testimonials">
+                            Testimonials
+                          </Link>
                         </li>
                         <li className="px-6 py-3 hover:bg-indigo-700">
                           <a
