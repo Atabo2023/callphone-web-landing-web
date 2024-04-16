@@ -2,17 +2,25 @@ import React from "react";
 import { Header } from "../../../components/Header/Header";
 import { Footer } from "../../../components/Footer/Footer";
 import { TeamProfile } from "./TeamProfile";
+import { Helmet } from "react-helmet";
 
 const TeamPage = () => {
   return (
     <div>
+      <Helmet>
+        <title>Team</title>
+        <meta
+          name="description"
+          content="The amazing team behind Callphone, an inclusive product."
+        />
+      </Helmet>
       <Header />
       <div className="text-center m-5 p-5">
         <h1 className="text-center text-6xl leading-relaxed  font-medium">
           Meet the <span className="text-[#4834d4]">Team</span>
         </h1>
         <p className=" text-center font-normal  text-[#565555] tracking-wide leading-relaxed text-md">
-        Meet the visionary minds shaping our company's future.
+          Meet the visionary minds shaping our company's future.
         </p>
       </div>
       <div className="flex flex-row gap-8 justify-center ">
@@ -21,9 +29,8 @@ const TeamPage = () => {
             Board Members
           </button>
         </div>
-       
       </div>
-      <TeamProfile/>
+      <TeamProfile />
       <Footer />
     </div>
   );

@@ -5,13 +5,20 @@ import bgImage from "../../assets/images/BgImages/bgImage1.svg";
 import { createSearchParams, useNavigate } from "react-router-dom";
 import { content } from "../../utils/BlogContent";
 import { UserOutlined } from "@ant-design/icons";
-// import authorImage from "../../assets/images/author.svg";
+import { Helmet } from "react-helmet";
 
 const Blogs = () => {
   const navigate = useNavigate();
 
   return (
     <div>
+      <Helmet>
+        <title>Callphone Blog</title>
+        <meta
+          name="description"
+          content="Get the latest update on the callphone blog."
+        />
+      </Helmet>
       <Header />
       <div
         className="text-white bg-[#4834d4] flex justify-center items-center bg-no-repeat z-50 p-10 bg-right h-[390px]"
