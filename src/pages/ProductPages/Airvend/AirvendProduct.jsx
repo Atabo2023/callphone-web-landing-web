@@ -12,10 +12,18 @@ import {
 import Vendcards from "./components/Cards";
 import Prefooter from "./components/Prefooter";
 import CustTestimonial from "../Componets/CustTestimonial";
+import { Helmet } from "react-helmet";
 
 const Airvend = () => {
   return (
     <>
+      <Helmet>
+        <title>Airvend</title>
+        <meta
+          name="description"
+          content="Utility bill payemnt made easy with Callphone. open a free account on airvend to stay activated."
+        />
+      </Helmet>
       <Header />
       <Hero />
       <div className="lg:px-24 p-5">
