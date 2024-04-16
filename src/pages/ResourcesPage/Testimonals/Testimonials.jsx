@@ -40,7 +40,7 @@ const Testimonials = () => {
     <div>
       <Header />
       <div
-        className="text-white bg-[#4834d4] h-95 justify-center items-center bg-no-repeat z-40 p-10 bg-right"
+        className="text-white bg-[#4834d4] flex flex-col h-64 md:h-96 justify-center items-center bg-no-repeat z-40 p-10 bg-right"
         style={{ backgroundImage: `url(${bgImage})` }}
       >
         <h1 className="text-center text-4xl md:text-6xl pt-20 tracking-wide leading-relaxed font-bold">
@@ -63,7 +63,7 @@ const Testimonials = () => {
             </div>
           ))}
         </div>
-        <div className="md:w-4/5 w-full bg-gray-50 pt-10 lg:p-10 ">
+        <div className="flex justify-center md:w-4/5 w-full bg-gray-50 pt-10 lg:p-10 ">
           <Outlet />
         </div>
       </div>

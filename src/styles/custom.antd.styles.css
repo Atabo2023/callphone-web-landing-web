@@ -122,8 +122,8 @@ h1 {
 @media (max-width: 480px) {
   .image-container {
     grid-template-columns: 1fr;
-    width: 416px;
-    height: 916px;
+    /* width: 416px; */
+    /* height: 916px; */
   }
 }
 /* Image responsiveness */

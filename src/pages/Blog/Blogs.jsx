@@ -5,13 +5,21 @@ import bgImage from "../../assets/images/BgImages/bgImage1.svg";
 import { createSearchParams, useNavigate } from "react-router-dom";
 import { content } from "../../utils/BlogContent";
 import { UserOutlined } from "@ant-design/icons";
-// import authorImage from "../../assets/images/author.svg";
+import LazyLoad from "react-lazyload";
+import { Helmet } from "react-helmet";
 
 const Blogs = () => {
   const navigate = useNavigate();
 
   return (
     <div>
+      <Helmet>
+        <title>Callphone Blog</title>
+        <meta
+          name="description"
+          content="Get the latest update on the callphone blog."
+        />
+      </Helmet>
       <Header />
       <div
         className="text-white bg-[#4834d4] flex justify-center items-center bg-no-repeat z-50 p-10 bg-right h-[390px]"
@@ -54,9 +62,16 @@ const Blogs = () => {
               className="flex flex-col-reverse md:flex-row gap-x-52 mb-20 cursor-pointer"
             >
               <div>
-                <div className="flex justify-center items-center text-white text-xs bg-[#5A6DED] w-24 h-6 rounded my-5">
-                  <p>{item.category}</p>
-                </div>
+                {item.category === "Airvend" ? (
+                  <div className="flex justify-center items-center text-white text-xs bg-[#5A6DED] w-24 h-6 rounded my-5">
+                    <p>{item.category}</p>
+                  </div>
+                ) : (
+                  <div className="flex justify-center items-center text-white text-xs bg-[#2B1D8A] w-24 h-6 rounded my-5">
+                    <p>{item.category}</p>
+                  </div>
+                )}
+
                 <h1 className="text-2xl md:text-4xl mb-3 w-80 md:w-[550px]">
                   {item.header}
                 </h1>
@@ -77,7 +92,9 @@ const Blogs = () => {
                   {`March 18, 2024 . 5 min read`}
                 </div>
               </div>
-              <img className=" w-[400px]" src={item.image} />
+              <LazyLoad height={200} once={true} offset={100}>
+                <img className=" w-[400px]" src={item.image} />
+              </LazyLoad>
             </div>
           </div>
         ))}

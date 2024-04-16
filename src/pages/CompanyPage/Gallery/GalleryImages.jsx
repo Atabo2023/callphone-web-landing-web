@@ -3,7 +3,7 @@ import { Image, Spin } from "antd";
 
 const Images = () => {
   return (
-    <div className="image-container p-10">
+    <div className="image-container md:p-10">
       <Image.PreviewGroup>
         {[
           "https://res.cloudinary.com/calllphone/image/upload/v1698179985/website%20Images/2023-06-19_08.17.47_xuyphc.jpg",
