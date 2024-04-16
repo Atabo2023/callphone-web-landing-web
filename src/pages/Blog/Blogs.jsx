@@ -5,6 +5,7 @@ import bgImage from "../../assets/images/BgImages/bgImage1.svg";
 import { createSearchParams, useNavigate } from "react-router-dom";
 import { content } from "../../utils/BlogContent";
 import { UserOutlined } from "@ant-design/icons";
+import LazyLoad from "react-lazyload";
 import { Helmet } from "react-helmet";
 
 const Blogs = () => {
@@ -91,7 +92,9 @@ const Blogs = () => {
                   {`March 18, 2024 . 5 min read`}
                 </div>
               </div>
-              <img className=" w-[400px]" src={item.image} />
+              <LazyLoad height={200} once={true} offset={100}>
+                <img className=" w-[400px]" src={item.image} />
+              </LazyLoad>
             </div>
           </div>
         ))}
