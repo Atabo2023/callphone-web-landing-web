@@ -8,7 +8,7 @@ import { scrollToTop } from "../../../../utils";
 export const UssdSec = () => {
   return (
     <>
-      <div className="box-border p-10 border border-transparent rounded-3xl bg-[#5A6DED] m-5 h-80 md:h-[480px]">
+      <div className="box-border p-7 md:p-10 border border-transparent rounded-3xl bg-[#5A6DED] m-5 h-80 md:h-[480px]">
         <p className="text-4xl font-bold  text-white py-3">USSD</p>
         <p className="text-base font-light  lg:py-3 w-full text-[#ffffff] tracking-wide leading-relaxed h-24">
           No internet service. No problem. The Airvend USSD feature allows you
