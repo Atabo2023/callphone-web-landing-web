@@ -93,7 +93,11 @@ const Blogs = () => {
                 </div>
               </div>
               <LazyLoad height={200} once={true} offset={100}>
-                <img className=" w-[400px]" src={item.image} />
+                <img
+                  fetchpriority="high"
+                  className=" w-[400px]"
+                  src={item.image}
+                />
               </LazyLoad>
             </div>
           </div>

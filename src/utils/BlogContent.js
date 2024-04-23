@@ -1,6 +1,6 @@
-import articleOne from "../assets/images/article1.svg";
-import articleTwo from "../assets/images/article2.svg";
-import articleThree from "../assets/images/article3.svg";
+import articleOne from "../assets/images/article1.webp";
+import articleTwo from "../assets/images/article2.webp";
+import articleThree from "../assets/images/article3.webp";
 import authorImage from "../assets/images/author.svg";
 
 export const content = [
