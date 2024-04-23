@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../../assets/images/hero_image.svg";
+import Image from "../../assets/images/hero_image.webp";
 import { Header } from "../../components/Header/Header";
 import { Footer } from "../../components/Footer/Footer";
 import { motion } from "framer-motion";
@@ -31,9 +31,9 @@ const LandingPage = () => {
               >
                 <div className="lg:text-6xl lg:text-left text-center text-4xl font-extrabold lg:mt-14 w-85 md:p-8 p-3 ">
                   <h2 className="leading-tight">
-                    Digital Payment <br></br>Simplifed For
+                    Digital Payments <br></br>Simplifed For
                   </h2>
-                  <h1 className="underline leading-tight  text-[#4834d4] font-light">
+                  <h1 className="underline leading-tight  text-[#4834d4] font-bold">
                     Everyone.
                   </h1>
                 </div>
@@ -71,7 +71,7 @@ const LandingPage = () => {
                 className=" lg:p-2 lg:h-0 h-4/5"
               >
                 <div className="md:mt-12 md:ml-5">
-                  <img src={Image} alt="header image" />
+                  <img fetchpriority="high" src={Image} alt="header image" />
                 </div>
               </motion.div>
             </div>

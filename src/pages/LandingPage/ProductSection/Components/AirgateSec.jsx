@@ -7,7 +7,7 @@ import { scrollToTop } from "../../../../utils";
 export const AirgateSec = () => {
   return (
     <>
-      <div className="box-border p-10 border border-transparent rounded-3xl bg-[#e5effd] m-5  h-80 md:h-[480px]">
+      <div className="box-border p-7 md:p-10 border border-transparent rounded-3xl bg-[#e5effd] m-5  h-80 md:h-[480px]">
         <p className="text-4xl font-bold  py-3">Airgate</p>
         <p className="text-base font-light w-full text-[#565555] tracking-wide leading-relaxed h-24">
           Experience a new level of robust payment gateway with well-documented
