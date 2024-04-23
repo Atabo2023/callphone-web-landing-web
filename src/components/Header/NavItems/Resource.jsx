@@ -15,7 +15,7 @@ const items = [
   {
     label: (
       <a
-        href="https://www.youtube.com/@airvendng"
+        href="https://www.youtube.com/@airvend_ng"
         target="_blank"
         rel="noopener noreferrer"
       >
