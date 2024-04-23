@@ -44,7 +44,7 @@ const BlogPage = () => {
 
         <div className="flex flex-col items-center mt-10">
           <div className="flex justify-center">
-            <img width="550px" src={image} />
+            <img fetchpriority="high" width="550px" src={image} />
           </div>
           <div className="mt-10 w-80 md:w-[900px]">
             {body.map((item, id) => (
