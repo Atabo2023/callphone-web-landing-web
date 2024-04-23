@@ -7,14 +7,14 @@ import { scrollToTop } from "../../../../utils";
 export const AirpaySec = () => {
   return (
     <>
-      <div className="box-border p-5 md:p-10 border border-transparent rounded-3xl bg-[#e5effd] m-5 h-80 md:h-[480px]">
+      <div className="box-border p-7 md:p-10 border border-transparent rounded-3xl bg-[#e5effd] m-5 h-80 md:h-[480px]">
         <p className="text-4xl font-bold py-3">Airpay</p>
         <p className="text-base font-light tracking-wide leading-relaxed h-24">
           Payment collection solution for smart businesses. Operate a business
           without financial boundaries. With Airpay, no cash, no worries;
           customers will pay however they want.
         </p>
-        <div className=" mt-9 lg:flex">
+        <div className="mt-14 md:mt-9 lg:flex">
           <Link
             className="flex items-center space-x-2"
             to="/airpay"
