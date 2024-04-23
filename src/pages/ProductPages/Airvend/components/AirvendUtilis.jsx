@@ -61,8 +61,8 @@ export const CableSubSec = () => {
       <div className="md:flex md:justify-between lg:p-5">
         <div className="lg:w-1/2 mt-10 ">
           <p className="flex flex-col md:flex-row items-center md:text-5xl text-4xl font-medium md:px-4 leading-relaxed md:pl-4 py-5 mt-10 md:mt-5">
-            <span>Cable TV</span>
-            <span className="md:ml-3">Subscription</span>
+            <span>Cable TV Subscription</span>
+            {/* <span className="md:ml-3">Subscription</span> */}
           </p>
           <p className="text-xl font-light md:pl-4 lg:py-3 px-2 text-center md:text-start lg:w-4/5 w-full text-[#565555] tracking-wide leading-relaxed">
             Relax and enjoy non-stop access when you renew your cable TV
@@ -96,8 +96,8 @@ export const ElectricBillsSec = () => {
         {/* </div> */}
         <div className="lg:w-1/2">
           <p className="flex flex-col md:flex-row items-center md:text-5xl text-4xl font-medium md:px-9 mt-10 md:pl-8 py-5">
-            <span>Electricity Bills</span>
-            <span className="md:ml-3">Payment</span>
+            <span>Electricity Bills Payment</span>
+            {/* <span className="md:ml-3">Payment</span> */}
           </p>
           <p className="text-xl font-light md:pl-10 lg:py-3 text-center md:text-start  w-full text-[#565555] tracking-wide leading-relaxed">
             Experience zero power outages when you renew your prepaid and
