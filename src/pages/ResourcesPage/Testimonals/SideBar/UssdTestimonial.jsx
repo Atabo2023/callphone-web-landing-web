@@ -9,7 +9,7 @@ const UssdTestimonial = () => {
       clientImage: miracleImage,
       username: "@Miracle",
       description:
-        "When my Phone is dead, I'm not worried about payments cause my ussd is always available",
+        "When I have limited network, I'm not worried about payments cause my ussd is always available",
     },
   ];
 
