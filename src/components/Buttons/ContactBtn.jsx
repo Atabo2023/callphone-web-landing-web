@@ -27,7 +27,7 @@ export const ContactbtOutline = () => {
 export const WhatsappOutline = () => {
   return (
     <div>
-      <a href="https://wa.me/+2349061163130">
+      <a target="_blank" href="https://wa.me/+2349061163130">
         <button
           className="rounded-md  hover:bg-indigo-700 text-white text-lg px-20 outline border-white py-3"
           icon={<WhatsAppOutlined />}
