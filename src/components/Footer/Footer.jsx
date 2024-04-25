@@ -108,8 +108,8 @@ export const Footer = () => {
               <li>
                 <p className="font-bold p-2">Port Harcourt</p>
                 <p className="font-light p-2 text-[#565555]">
-                  SAAC PLAZA, K/m 60, PH/ABA express road, Opposite Timber
-                  market, Oyigbo, Rivers State.
+                  The Vineyard, No. 88 Woji Road, GRA phase 2, Port Harcourt,
+                  Rivers State.
                 </p>
               </li>
             </ul>
