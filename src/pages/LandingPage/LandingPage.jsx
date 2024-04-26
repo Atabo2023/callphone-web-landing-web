@@ -31,7 +31,7 @@ const LandingPage = () => {
               >
                 <div className="lg:text-6xl lg:text-left text-center text-4xl font-extrabold lg:mt-14 w-85 md:p-8 p-3 ">
                   <h2 className="leading-tight">
-                    Digital Payments <br></br>Simplifed For
+                    Digital Payments <br></br>Simplified For
                   </h2>
                   <h1 className="underline leading-tight  text-[#4834d4] font-bold">
                     Everyone.
