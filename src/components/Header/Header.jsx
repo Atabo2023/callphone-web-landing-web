@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../../assets/icons/logo.svg";
+import logo from "../../assets/icons/logo.webp";
 import { NavItems } from "./NavItems/NavItems";
 import { Contactbtn } from "../Buttons/ContactBtn";
 import { Link } from "react-router-dom";
@@ -35,7 +35,7 @@ export const Header = () => {
     <nav>
       <div className="flex justify-between lg:px-28 px-5 py-5 shadow shadow-[#cce1fa] bg-white z-20 sticky h-20 w-full mt-0">
         <Link to="/">
-          <img src={logo} alt="logo" />
+          <img className=" h-9" src={logo} alt="logo" />
         </Link>
         {/* For responsiveness */}
         <div className="relative justify-end">
