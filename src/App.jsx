@@ -1,6 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import WebRoutes from "./routes/routes";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   return (
@@ -24,6 +25,19 @@ function App() {
           </Route>
         ))}
       </Routes>
+
+      <ToastContainer
+        style={{ marginTop: "20px" }}
+        theme="colored"
+        autoClose={true}
+        hideProgressBar
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
     </div>
   );
 }
