@@ -1,7 +1,7 @@
 import React from "react";
 import grandTIcon from "../../assets/icons/PartnersIcon/grandtIcon.svg";
 import MtnIcon from "../../assets/icons/PartnersIcon/mtnIcon.svg";
-import mobileIcon from "../../assets/icons/PartnersIcon/9mobile.svg";
+import globusBankIcon from "../../assets/icons/PartnersIcon/globusbank.svg";
 import gtbankIcon from "../../assets/icons/PartnersIcon/gtbank.svg";
 import gloIcon from "../../assets/icons/PartnersIcon/gloIcon.svg";
 import zenithIcon from "../../assets/icons/PartnersIcon/zenith.svg";
@@ -12,7 +12,7 @@ import firstIcon from "../../assets/icons/PartnersIcon/firstbank.svg";
 import psbIcon from "../../assets/icons/PartnersIcon/psb.svg";
 import szztIcon from "../../assets/icons/PartnersIcon/szzt.svg";
 import unionIcon from "../../assets/icons/PartnersIcon/unionbank.svg";
-import standardIcon from "../../assets/icons/PartnersIcon/standardbank.svg";
+import standbicIbtcIcon from "../../assets/icons/PartnersIcon/stanbicibtcbank.svg";
 import providusIcon from "../../assets/icons/PartnersIcon/providusIcon.svg";
 
 export const PartnerSec = () => {
@@ -36,7 +36,7 @@ export const PartnerSec = () => {
           <img src={MtnIcon} alt="mtn" />
         </div>
         <div>
-          <img src={mobileIcon} alt="9mobile" />
+          <img src={globusBankIcon} alt="globus bank" />
         </div>
         <div>
           <img src={gtbankIcon} alt="gtb" />
@@ -69,7 +69,7 @@ export const PartnerSec = () => {
           <img src={unionIcon} alt="union bank" />
         </div>
         <div>
-          <img src={standardIcon} alt="standard bank" />
+          <img src={standbicIbtcIcon} alt="stanbic ibtc bank" />
         </div>
         <div>
           <img src={providusIcon} alt="providus bank" />
