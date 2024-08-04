@@ -19,6 +19,7 @@ import TeamPage from "../pages/CompanyPage/Team/Team";
 import GalleryPage from "../pages/CompanyPage/Gallery/Gallery";
 import UssdTestimonial from "../pages/ResourcesPage/Testimonals/SideBar/UssdTestimonial";
 import B2bTestimonials from "../pages/ResourcesPage/Testimonals/SideBar/b2bTestimonials";
+import CampusAmbassador from "../pages/CampusAmbassador/CampusAmbassador";
 const WebRoutes = [
   {
     title: "Home",
@@ -64,6 +65,11 @@ const WebRoutes = [
     title: "Blogs",
     path: "/blog-page",
     component: BlogPage,
+  },
+  {
+    title: "Campus Ambassador",
+    path: "/campus-ambassador",
+    component: CampusAmbassador,
   },
   {
     title: "Testimonials",
