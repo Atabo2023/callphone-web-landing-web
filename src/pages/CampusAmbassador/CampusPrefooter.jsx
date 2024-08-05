@@ -9,7 +9,7 @@ const CampusPrefooter = () => {
         <p className="font-Monserrat font-semibold text-4xl text-secondary pt-12">
           Subscribe to our newsletter to get frequent update
         </p>
-        <div className="flex flex-col w-[434px] gap-6">
+        <div className="flex flex-col mb-12 w-[434px] gap-6">
           <button className="border-1 border-off_white rounded-lg py-4 px-8 bg-tertiary gap-2.5 font-rubik font-normal text-sm text-start items-center text-[#C4C4C4]">
             Enter Email Address
           </button>
@@ -18,7 +18,7 @@ const CampusPrefooter = () => {
           </button>
         </div>
 
-        <div className="flex absolute left-[54rem] items-center justtify-end">
+        <div className="flex absolute left-[48rem] items-center justtify-end">
           <img
          src={diconsImage}
          />
@@ -44,5 +44,6 @@ const CampusPrefooter = () => {
 // git branch -M main
 // git remote add origin https://github.com/Atabo2023/AirgateLanding-page.git
 // git push -u origin main
+// https://username:password@github.com/username/repo_name.git
 
 export default CampusPrefooter;

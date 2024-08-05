@@ -13,8 +13,8 @@ const CampusRegSec = () => {
         <div className="w-full bg-dark_purple my-10 ">
 
         {/* <div className="w-[1435px] h-[655px] mx-auto "> */}
-         <div className="flex absolute top-[138rem] bg-[Url('../../assets/images/Group.png')]">
-        <img className="" src={GroupImage} />
+         <div className="container absolute h-80 top-[153rem] md:h-96 overflow-hidden max-w-[7rem]">
+        <img className="max-w-full object-cover" src={GroupImage} />
         </div>
         <div className="flex items-center mx-auto pt-8 w-[662px] justify-center">
           <p className="flex mt-8 font-[montserrat] justify-center text-4xl font-semibold text-center leading-10 text-tertiary">
@@ -67,19 +67,19 @@ const CampusRegSec = () => {
           src={image5Image}
         />
         <img
-          className="flex absolute top-[164.3rem] right-[19.3rem] rotate-[-4.26deg]  drop-shadow-[4px 4px 15px 0px #BDBDEA40] items-end h-20"
+          className="flex absolute top-[175.3rem] right-[19.3rem] md:right-[12.5rem] xl:right-[19.5rem] rotate-[-4.26deg]  drop-shadow-[4px 4px 15px 0px #BDBDEA40] items-end h-20"
           src={Rectangle4Image}
         />
         <img
-          className="flex absolute top-[182rem] left-[53rem] rotate-[-1.26deg]  drop-shadow-[4px 4px 15px 0px #BDBDEA40] items-end h-20"
+          className="flex absolute top-[193rem] left-[53rem] rotate-[-1.26deg]  drop-shadow-[4px 4px 15px 0px #BDBDEA40] items-end h-20"
           src={Rectangle1Image}
         />
         <img
-          className="flex absolute top-[169.5rem] right-[6.5rem] rotate-[1.74deg]  drop-shadow-[4px 4px 15px 0px #BDBDEA40] items-end h-20"
+          className="flex absolute top-[180.5rem] right-[6.5rem] md:right-[0.5rem] xl:right-[6.5rem] md:top-[177.5rem] lg:top-[179.5rem] rotate-[1.74deg]  drop-shadow-[4px 4px 15px 0px #BDBDEA40] items-end h-20"
           src={Rectangle3Image}
         />
         <img
-          className="absolute top-[183rem] right-48 rotate-[-3.26deg]  drop-shadow-[4px 4px 15px 0px #BDBDEA40] items-end h-14"
+          className="absolute top-[193.8rem] right-48 md:top-[193rem] md:right-[4.5rem] lg:right-[4.5rem] xl:right-[11.5rem] rotate-[-3.26deg]  drop-shadow-[4px 4px 15px 0px #BDBDEA40] items-end h-[3.9rem]"
           src={Rectangle2Image}
        />
        </div>

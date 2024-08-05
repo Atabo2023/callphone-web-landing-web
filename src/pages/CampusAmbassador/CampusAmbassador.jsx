@@ -23,7 +23,7 @@ const CampusAmbassador = () => {
 
 
         {/* add components here */}
-        <h1>CAMPUSAMBASSADOR</h1>
+        {/* <h1>CAMPUSAMBASSADOR</h1> */}
 
 
 

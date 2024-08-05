@@ -7,9 +7,9 @@ const CampusGridLayout = () => {
         <div className="flex flex-col mx-auto w-[30.5rem] mb-8 gap-4 text-center justify-center">
           <p className="text-4xl font-[Monserrat] font-semibold text-primary">
             What is in for <span className="text-dark_purple">Airvend</span> Campus Ambassadors.</p>
-          <p className="flex flex-col font-normal text-sm items-center text-secondary">
+          <p className="flex flex-col font-medium text-sm items-center text-secondary">
             Live your best life. Make and receive payments from the comfort of
-            your home. Life shouldn’t be stressful when we’ve got your back.ss
+            your home. Life shouldn’t be stressful when we’ve got your back.
           </p>
         </div>
 

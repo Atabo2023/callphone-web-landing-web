@@ -7,9 +7,9 @@ const CampusHero = () => {
     return (
         <>
         <div className="w-full bg-customGradient bg-shadow-lg">
-    {/* <CampusIcon /> */}
-    <div className="flex flex-col w-full text-7xl font-Rubik font-extrabold text-center items-center justify-center gap-6">
-        <h1 className="text-primary">Become an <span className="text-dark_purple">Airvend</span></h1>
+    <CampusIcon />
+    <div className="flex flex-col w-full text-6xl font-Rubik font-extrabold text-center items-center justify-center gap-6">
+        <h1 className="mt-48 text-primary">Become an <span className="text-dark_purple">Airvend</span></h1>
         <h1>Campus Ambassador</h1>
     </div>
 
