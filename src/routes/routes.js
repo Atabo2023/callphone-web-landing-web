@@ -73,7 +73,7 @@ const WebRoutes = [
   },
   {
     title: "Testimonials",
-    path: "/testimonials/*",
+    path: "/testimonials/",
     component: TestimonialsPage,
     children: [
       {
