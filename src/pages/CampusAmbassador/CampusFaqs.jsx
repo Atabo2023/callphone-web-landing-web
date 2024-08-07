@@ -10,8 +10,8 @@ const CampusFaqs = () => {
           <p>FAQs</p>
         </div>
         <div className="flex flex-col items-center  mt-8 gap-4">
-          <div className="flex border-b-[1px] border-solid border-grey_white gap-[auto]">
-            <p className="flex text-2xl font-bold text-dark_purple">
+          <div className="flex border-b-[1px] border-solid border-grey_white gap-6 xl:gap-[38.5rem]">
+            <p className="flex text-xl xl:text-2xl font-bold text-dark_purple">
               Is the program for a selected discipline{" "}
             </p>{" "}
             <span>
@@ -23,8 +23,8 @@ const CampusFaqs = () => {
             </span>
           </div>
 
-          <div className="flex border-b-[1px]  border-solid border-grey_white gap-[42.7rem]">
-            <p className="flex text-2xl font-bold  text-dark_purple">
+          <div className="flex border-b-[1px]  border-solid border-grey_white gap-[4.5rem] xl:gap-[42.7rem]">
+            <p className="flex text-xl xl:text-2xl font-bold  text-dark_purple">
               How much is the application fee?
             </p>{" "}
             <span>
@@ -36,8 +36,8 @@ const CampusFaqs = () => {
             </span>
           </div>
 
-          <div className="flex border-b-[1px] border-solid border-grey_white gap-[746px]">
-            <p className="flex text-2xl font-bold text-dark_purple">
+          <div className="flex border-b-[1px] border-solid border-grey_white gap-[7.8rem] xl:gap-[746px]">
+            <p className="flex text-xl xl:text-2xl font-bold text-dark_purple">
               Who is eligible for this role?
             </p>{" "}
             <span>
@@ -49,8 +49,8 @@ const CampusFaqs = () => {
             </span>
           </div>
 
-          <div className="flex border-b-[1px] border-solid border-grey_white gap-[738px]">
-            <p className="flex text-2xl font-bold text-dark_purple">
+          <div className="flex border-b-[1px] border-solid border-grey_white gap-[7.3rem] xl:gap-[738px]">
+            <p className="flex text-xl xl:text-2xl font-bold text-dark_purple">
               How long does this role last?
             </p>{" "}
             <span>
@@ -62,8 +62,8 @@ const CampusFaqs = () => {
             </span>
           </div>
 
-          <div className="flex border-b-[1px] border-solid border-grey_white gap-[662px]">
-            <p className="flex text-2xl font-bold text-dark_purple">
+          <div className="flex border-b-[1px] border-solid border-grey_white gap-12 xl:gap-[662px]">
+            <p className="flex text-xl xl:text-2xl font-bold text-dark_purple">
               What does campus ambassador do?
             </p>{" "}
             <span>
@@ -74,8 +74,8 @@ const CampusFaqs = () => {
               />
             </span>
           </div>
-          <div className="flex border-b-[1px] border-solid border-grey_white gap-[668px]">
-            <p className="flex text-2xl font-bold text-dark_purple">
+          <div className="flex border-b-[1px] border-solid border-grey_white gap-14 xl:gap-[668px]">
+            <p className="flex text-xl xl:text-2xl font-bold text-dark_purple">
               Who do i reach for further inquiry?
             </p>{" "}
             <span>
@@ -87,8 +87,8 @@ const CampusFaqs = () => {
             </span>
           </div>
 
-          <div className="flex border-b-[1px] border-solid border-grey_white gap-[596px]">
-            <p className="flex text-2xl font-bold text-dark_purple">
+          <div className="flex border-b-[1px] border-solid border-grey_white xl:gap-[596px]">
+            <p className="flex text-xl xl:text-2xl font-bold text-dark_purple">
               What do i get as an Airvend Ambassador?
             </p>{" "}
             <span>

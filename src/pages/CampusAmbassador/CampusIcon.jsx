@@ -15,20 +15,20 @@ const CampusIcon = () => {
         <div className="absolute max-w-[3rem]">
     <img className="max-w-full h-auto object-cover" src={Ellipse2Image} alt="ellipseIcon" />
   </div>
-         <div className="flex absolute top-52 right-52 md:right-36 lg:right-48 opacity-65 rotate-[4.50deg]">
+         <div className="flex absolute top-32  h-12 xl:h-24 right-4 xl:top-36 xl::right-36 lg:right-48 opacity-65 rotate-[4.50deg]">
     <img src={noteImage} alt="noteIcon" />
   </div>
         <div className="absolute top-[37rem] opacity-[80%] left-4 md:left-[-2rem] lg:left-4">
     <img src={glassImage} alt="glassIcon" />
   </div> 
-        <div className="justify-end absolute top-[30rem] right-[4rem]">
+  <div className="justify-end absolute top-[22rem] right-0 xl:top-[24rem]  xl:right-[7rem]">
     <img src={image2Image} alt="imageIcon" />
-  </div> 
-
-        {/* <div className="flex justify-center mt-1">
+ </div>  
+ 
+         {/* <div className="flex justify-center mt-1">
     <img src={glassImage} alt="glassIcon" />
-  </div> */} 
-</div>
+  </div>   */}
+</div> 
         </>
     )
 }

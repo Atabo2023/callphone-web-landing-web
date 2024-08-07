@@ -3,17 +3,18 @@ import IconImage from "../../assets/images/Icon.png";
 const CampusGridLayout = () => {
     return (
         <>
-        <div className="w-full mb-10 bg-tertiary gap-10">
-        <div className="flex flex-col mx-auto w-[30.5rem] mb-8 gap-4 text-center justify-center">
+        {/* <div className="grid w-[1440px] h-[651px] items-center justify-center bg-[#FFFFFF]"></div> */}
+        <div className="flex flex-col mb-10 bg-tertiary xl:gap-10">
+        <div className="flex flex-col mx-auto xl:w-[30.5rem] mb-8 xl:gap-4 text-center justify-center">
           <p className="text-4xl font-[Monserrat] font-semibold text-primary">
             What is in for <span className="text-dark_purple">Airvend</span> Campus Ambassadors.</p>
-          <p className="flex flex-col font-medium text-sm items-center text-secondary">
+          <p className="flex flex-col tracking-normal text-start xl:text-center opacity-80 p-4 font-medium text-sm items-center text-secondary">
             Live your best life. Make and receive payments from the comfort of
             your home. Life shouldn’t be stressful when we’ve got your back.
           </p>
         </div>
 
-        <div className="flex justify-center bg-tertiary mx-auto gap-10">
+        <div className="flex flex-col lg:grid lg:grid-cols-3  xl:grid xl:grid-cols-3 items-center justify-center bg-tertiary mx-auto gap-10">
           <div className="bg-tertiary border-1 w-[353px] h-[303px] border-solid border-tertiary drop-shadow-md  rounded-xl p-4">
             <div className="flex flex-col items-center mt-3 justify-center  w-72 gap-y-3 bg-white">
               <img className="flex flex-col w-14 " src={IconImage} />
@@ -57,7 +58,7 @@ const CampusGridLayout = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center mt-10 mx-auto gap-10">
+        <div className="flex flex-col lg:grid lg:grid-cols-3  xl:grid xl:grid-cols-3 items-center justify-center mt-10 mx-auto gap-10">
           <div className="bg-tertiary drop-shadow-md w-[353px] h-[303px] rounded-xl p-4">
             <div className="flex flex-col w-[296px] mt-8 mx-auto h-[205px] gap-y-2 bg-white">
               <img className="flex mx-auto" src={IconImage} />
