@@ -70,7 +70,7 @@ const CampusRegSec = () => {
           src={image5Image}
         />
         <img
-          className="flex absolute top-[292.5rem] md:top-[183.5rem] xl:top-[175.5rem]  right-[17.7rem] md:right-[12.5rem] xl:right-[19rem] rotate-[-4.26deg]  drop-shadow-[4px 4px 15px 0px #BDBDEA40] items-end h-20"
+          className="flex absolute top-[294.5rem] md:top-[183.5rem] xl:top-[175.5rem]  right-[17.7rem] md:right-[12.5rem] xl:right-[19rem] rotate-[-4.26deg]  drop-shadow-[4px 4px 15px 0px #BDBDEA40] items-end h-20"
           src={Rectangle4Image}
         />
         <img
@@ -78,11 +78,11 @@ const CampusRegSec = () => {
           src={Rectangle1Image}
         />
         <img
-          className="flex absolute top-[299.5rem] right-[2.8rem] md:right-[0.5rem] xl:right-[6rem] md:top-[177.5rem] lg:top-[188.5rem] xl:top-[180.5rem] rotate-[1.74deg]  drop-shadow-[4px 4px 15px 0px #BDBDEA40] items-end h-20"
+          className="flex absolute top-[300.5rem] right-[2.8rem] md:right-[0.5rem] xl:right-[6rem] md:top-[177.5rem] lg:top-[188.5rem] xl:top-[180.5rem] rotate-[1.74deg]  drop-shadow-[4px 4px 15px 0px #BDBDEA40] items-end h-20"
           src={Rectangle3Image}
         />
         <img
-          className="absolute top-[315.5rem] right-36 md:top-[203rem] xl:top-[195rem] md:right-[4.5rem] lg:right-[4.5rem] xl:right-[11.5rem] rotate-[-3.26deg]  drop-shadow-[4px 4px 15px 0px #BDBDEA40] items-end h-[3.9rem]"
+          className="absolute top-[317.5rem] right-36 md:top-[203rem] xl:top-[195rem] md:right-[4.5rem] lg:right-[4.5rem] xl:right-[11.5rem] rotate-[-3.26deg]  drop-shadow-[4px 4px 15px 0px #BDBDEA40] items-end h-[3.9rem]"
           src={Rectangle2Image}
        />
        
