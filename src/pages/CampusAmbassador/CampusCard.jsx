@@ -2,6 +2,7 @@ import React from "react";
 import circleImage from "../../assets/images/circle.png";
 import image3Image from "../../assets/images/image3.png";
 import CampusCardIcon from "./CampusCardIcon";
+import { Link } from "react-router-dom";
 
 const CampusCards = () => {
 
@@ -31,24 +32,19 @@ const CampusCards = () => {
 
           
 
-          <div className="flex flex-col gap-10">
-            {/* <div className="flex flex-col justify-center items-center gap-8 md:relative xl:relative top-[111rem] xl:top-0 right-[10rem] xl:right-[20.5rem] md:right-[20.5rem]">
-            <button className="flex flex-col xl:border-1 font-md text-center rounded-md py-3 px-16 border-dark_grey hover:bg-indigo-600 bg-dark_purple text-tertiary justify-left items-left">
-              Apply Now
-            </button>
-            <button className="rounded-lg border-solid border-1 mb-8 border-light_grey py-3 px-16 drop-shadow-md bg-tertiary hover:bg-indigo-50 text-dark_purple md:absolute md:right-[-13rem] md:bottom-[0rem]">
-              Learn More
-            </button> */}
+  <div className="flex flex-col gap-10">
     <div className="flex flex-col lg:flex-row xl:flex justify-center items-center gap-8 xl:justify-content-end xl:absolute xl:right-44 xl:top-[97rem] xl:gap-10 border-dark_grey">
-       <button 
+    <Link
+        to="https://docs.google.com/forms/d/1DSkeXuB21nylN1XdjhRsHBwD8KEjUM9RO6u4oVPQlHc/edit"
+        target="_blank"
+        rel="noopener noreferrer"
         className="xl:left-[40rem] xl:top-[94rem] text-lg rounded-md bg-dark_purple hover:bg-indigo-600 text-tertiary px-16 py-3 xl:border-1 font-md"
-        // onClick={toAirgate}
+       
       >
        Apply Now
-      </button>
+      </Link>
       <button 
         className="xl:left-[40rem] xl:top-[94rem] text-lg rounded-lg bg-tertiary drop-shadow-md hover:bg-indigo-50 text-dark_purple border-solid border-1 border-light_grey  px-12 py-4" 
-        //  {onClick={toAirgate} 
       > 
           Learn More
        </button> 

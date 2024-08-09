@@ -25,9 +25,13 @@ const CampusHero = () => {
   </div>
 
   <div className="flex justify-center">
-        <button className="rounded-md bg-dark_purple hover:bg-indigo-600 text-white text-lg px-16 border-white py-3">
+        <Link
+        to="https://docs.google.com/forms/d/1DSkeXuB21nylN1XdjhRsHBwD8KEjUM9RO6u4oVPQlHc/edit"
+        target="_blank"
+         rel="noopener noreferrer"
+         className="rounded-md bg-dark_purple hover:bg-indigo-600 text-white text-lg px-16 border-white py-3">
           Apply Now
-        </button>
+        </Link>
   </div>
 
   <div className="flex justify-center mt-10">
