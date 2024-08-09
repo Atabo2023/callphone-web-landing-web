@@ -10,7 +10,7 @@ const CampusFaqs = () => {
           <p>FAQs</p>
         </div>
         <div className="flex flex-col items-center  mt-8 gap-4">
-          <div className="flex border-b-[1px] border-solid border-grey_white gap-6 xl:gap-[38.5rem]">
+          <div className="flex border-b-[1px] border-solid border-grey_white gap-4 xl:gap-[38.5rem]">
             <p className="flex text-xl xl:text-2xl font-bold text-dark_purple">
               Is the program for a selected discipline{" "}
             </p>{" "}

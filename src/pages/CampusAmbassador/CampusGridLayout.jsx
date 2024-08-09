@@ -4,8 +4,8 @@ const CampusGridLayout = () => {
     return (
         <>
         {/* <div className="grid w-[1440px] h-[651px] items-center justify-center bg-[#FFFFFF]"></div> */}
-        <div className="flex flex-col mb-10 bg-tertiary xl:gap-10">
-        <div className="flex flex-col mx-auto xl:w-[30.5rem] mb-8 xl:gap-4 text-center justify-center">
+        <div className="flex flex-col mb-10 bg-tertiary">
+        <div className="flex flex-col mx-auto xl:w-[30.5rem] my-8 xl:gap-4 text-center justify-center">
           <p className="text-4xl font-[Monserrat] font-semibold text-primary">
             What is in for <span className="text-dark_purple">Airvend</span> Campus Ambassadors.</p>
           <p className="flex flex-col tracking-normal text-start xl:text-center opacity-80 p-4 font-medium text-sm items-center text-secondary">

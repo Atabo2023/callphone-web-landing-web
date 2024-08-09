@@ -38,14 +38,4 @@ const CampusPrefooter = () => {
     )
 }
 
-// echo "# callphone-web-landing-web" >> README.md
-// git init
-// git add README.md
-// git commit -m "first commit"
-// git branch -M main
-// git remote add origin https://github.com/Atabo2023/callphone-web-landing-web.git
-// git push -u origin main
-
-// https://username:password@github.com/username/repo_name.git
-
 export default CampusPrefooter;

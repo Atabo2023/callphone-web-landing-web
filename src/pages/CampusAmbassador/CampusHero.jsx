@@ -1,6 +1,10 @@
 import React from "react";
 import image1Image from "../../assets/images/image1.png";
 import CampusIcon from "./CampusIcon";
+import { Link } from "react-router-dom";
+// const scrollToProductSection = () => {
+//   const scroller = document.getElementById("scrollProduct");
+//   scroller.scrollIntoView({ behavior: "smooth" });
 
 const CampusHero = () => {
 
@@ -21,7 +25,7 @@ const CampusHero = () => {
   </div>
 
   <div className="flex justify-center">
-        <button className="rounded-md bg-dark_purple hover:bg-indigo-600 text-white text-lg px-16 outline border-white py-3">
+        <button className="rounded-md bg-dark_purple hover:bg-indigo-600 text-white text-lg px-16 border-white py-3">
           Apply Now
         </button>
   </div>
