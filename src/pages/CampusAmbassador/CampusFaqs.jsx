@@ -1,9 +1,11 @@
 import React from "react";
 import plusImage from "../../assets/images/plus.png";
+// import FAQs from "./FaqComponent/FAQs";
 
 const CampusFaqs = () => {
     return (
         <>
+        {/* <FAQs/> */}
         <div className="w-full mb-10 bg-tertiary">
         {/* <div className="w-[1435px] h-[680px] mx-auto bg-[#FFFFFF]"> */}
         <div className="flex mt-16 text-4xl justify-center items-center text-[#100658] font-Rubik font-bold">

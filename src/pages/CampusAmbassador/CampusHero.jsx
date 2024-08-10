@@ -12,7 +12,7 @@ const CampusHero = () => {
         <>
         <div className="w-full bg-customGradient bg-shadow-lg">
     <CampusIcon />
-    <div className="flex flex-col w-full tracking-normal xl:pt-0 pt-16  leading-relaxed text-4xl sm:text-6xl md:text-6xl xl:text-6xl font-Rubik font-extrabold text-center items-center justify-center gap-2 md:gap-6 xl:gap-6">
+    <div className="flex flex-col w-full tracking-normal xl:pt-0 pt-16  leading-relaxed text-4xl sm:text-5xl md:text-5xl xl:text-[3.3rem] font-Rubik font-extrabold text-center items-center justify-center gap-2 md:gap-6 xl:gap-6">
         <h1 className="sm:mt-16 md:mt-48 xl:mt-28 text-primary">Become an <span className="text-dark_purple">Airvend</span></h1>
         <h1>Campus Ambassador</h1>
     </div>
@@ -26,15 +26,15 @@ const CampusHero = () => {
 
   <div className="flex justify-center">
         <Link
-        to="https://docs.google.com/forms/d/1DSkeXuB21nylN1XdjhRsHBwD8KEjUM9RO6u4oVPQlHc/edit"
+        to="https://docs.google.com/forms/d/e/1FAIpQLSdQauGc5PfCebUh9BmcGJ1lf9gJum6R_lG0UBU1Vyrc1WWm6w/viewform?usp=sf_link"
         target="_blank"
          rel="noopener noreferrer"
-         className="rounded-md bg-dark_purple hover:bg-indigo-600 text-white text-lg px-16 border-white py-3">
+         className="rounded-md bg-dark_purple hover:bg-indigo-600 text-white text-sm px-12 border-white py-3">
           Apply Now
         </Link>
   </div>
 
-  <div className="flex justify-center mt-10">
+  <div className="flex justify-center h-96 mt-12">
     <img src={image1Image} alt="HeroImg" />
   </div>
  </div>

@@ -12,14 +12,10 @@ const CampusRegSec = () => {
     return (
         <>
         <div className="w-full bg-dark_purple my-10 ">
+        <div id="Airvend-ambassador" className="flex items-center mx-auto pt-8 justify-center">
 
-        {/* <div className="w-[1435px] h-[655px] mx-auto "> */}
-         {/* <div className="container absolute h-80 top-[153rem] md:h-96 overflow-hidden max-w-[7rem]">
-        <img className="max-w-full object-cover" src={GroupImage} />
-        </div> */}
-        <div className="flex items-center mx-auto pt-8 justify-center">
-          <p className="flex mt-8 font-[montserrat] xl:w-[42rem] justify-center text-[2rem] xl:text-5xl font-semibold text-center leading-10 text-tertiary">
-            How to be an Airvend Campus Ambassadors.
+          <p className="flex mt-8 font-[montserrat] xl:w-[32rem] justify-center text-[2rem] xl:text-3xl font-semibold text-center leading-10 text-tertiary">
+            How to be an Airvend Campus Ambassador.
           </p>
         </div>
           <div className="gap-36 xl:gap-48 xl:ml-32 tracking-normal leading-relaxed px-2">

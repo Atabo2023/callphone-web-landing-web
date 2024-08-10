@@ -13,7 +13,7 @@ const CampusAmbassador = () => {
     return (
         <>
         <Header/>
-        <div className="my-10">
+        <div className="">
             <CampusHero />
             <CampusCards />
             <CampusGridLayout />
@@ -28,8 +28,9 @@ const CampusAmbassador = () => {
 
 
         </div>
+        <div className="bg-tertiary">
         <Footer/>
-
+        </div>
         </>
     )
 }

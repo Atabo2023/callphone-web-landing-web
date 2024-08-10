@@ -33,7 +33,7 @@ export const GetStartedBtn = () => {
   return (
     <div>
       <button
-        className=" text-lg rounded-md bg-indigo-600 hover:bg-indigo-700 text-white min-w-[200px] py-3 px-14 font-bold my-10"
+        className="text-lg rounded-md bg-indigo-600 hover:bg-indigo-700 text-white min-w-[200px] py-3 px-14 font-bold my-10"
         onClick={toAirgate}
       >
         Get Started
