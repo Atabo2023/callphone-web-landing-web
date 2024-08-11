@@ -29,7 +29,7 @@ const CampusPrefooter = () => {
           </button>
         </div>
 
-        <div className="flex xl:absolute xl:left-[48rem] items-center justify-center">
+        <div className="flex xl:absolute xl:left-[40rem] items-center justify-center">
           <img
          src={diconsImage}
          className="h-[25rem] xl:mt-12"

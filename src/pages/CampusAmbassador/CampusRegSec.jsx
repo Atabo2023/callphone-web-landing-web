@@ -11,7 +11,7 @@ import Rectangle4Image from "../../assets/images/Rectangle4.png";
 const CampusRegSec = () => {
     return (
         <>
-        <div className="w-full bg-dark_purple my-10 ">
+        <div className="w-full bg-dark_purple mt-10 ">
         <div id="Airvend-ambassador" className="flex items-center mx-auto pt-8 justify-center">
 
           <p className="flex mt-8 font-[montserrat] xl:w-[32rem] justify-center text-[2rem] xl:text-3xl font-semibold text-center leading-10 text-tertiary">

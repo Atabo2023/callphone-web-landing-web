@@ -5,9 +5,10 @@ import CampusHero from "./CampusHero";
 import CampusCards from "./CampusCard";
 import CampusGridLayout from "./CampusGridLayout";
 import CampusRegSec from "./CampusRegSec";
-import CampusFaqs from "./CampusFaqs";
+// import CampusFaqs from "./CampusFaqs";
 import CampusPrefooter from "./CampusPrefooter";
-
+import Accordion from "./FaqComponent/Accordion";
+import FAQs from "./FaqComponent/FAQs"
 const CampusAmbassador = () => {
 
     return (
@@ -18,7 +19,9 @@ const CampusAmbassador = () => {
             <CampusCards />
             <CampusGridLayout />
             <CampusRegSec />
-            <CampusFaqs />
+            {/* <CampusFaqs /> */}
+            <Accordion /> 
+            <FAQs/>
             <CampusPrefooter />
 
 
